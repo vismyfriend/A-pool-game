@@ -1,0 +1,353 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular);
+@import url(../vendor/normalize.css);
+
+
+.body {
+    background-image: url(../images/background.png);
+    height: 100vh;
+    background-position: 72% 0;
+    background-size: cover;
+    font-family: neucha;
+}
+
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.picture-right {
+    transition: all 0.4s ease-in-out;
+    position: fixed;
+    width: 40%;
+    right: -100%;
+    top: 5.6%;
+    height: 84%;
+    /* border-radius: 50px; */
+    /* overflow: hidden; */
+    /* спросить у Andrew можно ли закруглять края у картнки? */
+    /* сделать контур? или заранее у самой картинки сделать? */
+    /* при другом девайсе backgrond picture меняется */
+}
+.picture-right.shown{
+    right: 10%;
+    
+}
+/* .picture-right.click2{
+    right: 50%;
+
+} */
+.picture-left {
+    transition: all 0.4s ease-in-out;
+    position: fixed;
+    width: 40%;
+    left: -100%;
+    top: 5.6%;
+    height: 84%;
+
+}
+.picture-left.shown{
+    left: 10%;
+}
+.header__back {
+
+    background: #FFF27B;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+
+}
+.picture-left.shown.again{
+  left: 50%;
+     
+
+}
+.popup.close {
+    transform: scale(0);
+}
+
+.popup {
+    overflow: hidden;
+    position: absolute;
+    /* вырываем объект и он двигается вместе с экраном при скроле */
+    /* fixed - не двигается */
+    width: 316px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85px;
+    padding: 15px;
+    box-shadow: 0 0 20px 3px #000000;
+    background: #D9D9D9;
+    border-radius: 35px;
+}
+
+.try-again{
+    position: absolute;
+    background: #80FF01;
+    border-radius: 20px;
+    margin: 0;
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 36px;
+    top: 62px;
+    box-shadow: 0 2px 6px 1px #000000;
+}
+
+.try-again.hidden {
+display: none;
+
+}
+.popup__description {
+    margin: 5px 0;
+}
+
+.popup__set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 96.54px;
+    height: 46px;
+    left: 49.09px;
+    top: 304px;
+
+    background: #FFF27B;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px 1px #000000;
+}
+
+.popup__sets {
+    /* position: relative; */
+    overflow-x: scroll;
+    gap: 15px 10px;
+    /* width: 100%; */
+    height: 127px;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-rows: 46px 46px;
+    grid-auto-flow: column;
+    padding: 20px 10px;
+    /* transform: translateX(-30px); */
+    list-style: none;
+    /* убрали точки */
+    /* scroll-behavior: smooth; */
+}
+
+.popup__sets.hide {
+    display: none;
+}
+
+/* .popup__sets::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 56px;
+    right: 0;
+    top: -5px;
+    background-color: rgba(217, 217, 217, 0.5);
+} */
+
+.popup__title {
+    margin: 10px 0;
+    /* одна цифра с 4 сторон */
+    /* две цифры 2 оси  */
+    /* три цифры 1 общая и две оси */
+    font-weight: 400;
+    /* regular = 400 (100 тонкий 900 толстый) убрали размытие - так как оно не наследуется */
+    font-size: 30px;
+}
+
+.popup__find-a-pair,
+.popup__check-memory {
+    display: none;
+    gap: 10px;
+    /* гэп работает внутри флекс элементов */
+    margin-bottom: 10px;
+    
+}
+
+.popup__find-a-pair img,
+.popup__check-memory img {
+    max-width: 50px;
+
+}
+
+.popup__find-a-pair p,
+.popup__check-memory p {
+    background: #80FF01;
+    border-radius: 20px;
+    margin: 0;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px 1px #000000;
+}
+
+.popup__find-a-pair {
+    margin-top: 20px;
+}
+
+.popup__chosen-set {
+    display: none;
+    background: #FFF27B;
+    border-radius: 20px;
+    margin: 10px 0 15px 58px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px 1px #000000;
+    
+}
+
+.popup__chosen-set.show,
+.popup__find-a-pair.show,
+.popup__check-memory.show {
+    display: flex;
+}
+
+.hide {}
+
+.pool {
+    background-image: url(../images/pull\ table.png);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: 100% 100%;
+    display: none;
+    
+
+}
+.timer {
+    font-size: 35px;
+    color: #ffffff;
+    position: fixed;
+    margin: 0;
+    /* background-color: rgba(0,0,0,0.5); */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px ;
+    width: 67px ;
+}
+.pool__container {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    /* grid-template-areas: ; */
+    padding: 50px 43px;
+    grid-auto-rows: 82px;
+    gap: 10px 10px;
+    grid-auto-flow: dense;
+}
+.pool.open {
+    display: block;
+}
+
+.pool__buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cover-l,
+.cover-r {
+    width: 104px;
+    height: 47px;
+
+    background: #80FFC2;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px 1px #000000;
+    font-size: 22px;
+
+}
+
+.next {
+
+    width: 104px;
+    height: 47px;
+
+    background: #7BE7FF;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px 1px #000000;
+    font-size: 25px;
+
+}
+
+.card.eng {
+    grid-column: 1;
+    grid-row: auto;
+}
+
+.card.ru {
+
+    grid-column: 2;
+    grid-row: auto;
+}
+
+.card {
+
+    margin: 0;
+    background: #FFF27B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid #ffffff;
+    transition: all 0.1s ease-in-out;
+    /* кнопки красотки */
+}
+
+.card.delete {
+    transform: scaleY(0);
+}
+
+.card.select {
+    background-color: #7BE7FF;
+}
+
+.card:active {
+    transform: scale(0.9);
+}
+.scroll-left, .scroll-right {
+    background-image: url(../images/Polygon\ 2.png);
+    background-size: cover;
+    position: absolute;
+    
+    width: 35px;
+    height: 126px;
+    background-color: transparent;
+    border: 0;
+
+}
+.scroll-left {
+    transform: rotate(180deg);
+    left: 0;
+    top: 130px;
+}
+.scroll-right{
+    right: 0;
+    top: 139px;
+}
