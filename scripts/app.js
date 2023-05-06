@@ -221,6 +221,17 @@ scrollLeft.addEventListener("mousedown", () =>{
 scrollLeft.addEventListener("mouseup", () => {
     clearInterval(interval)
 })
+scrollLeft.addEventListener("touchstart", () =>{
+    interval = setInterval(() => {
+        scroll(-2)
+    }, 0);
+})
+scrollLeft.addEventListener("touchend", () => {
+    clearInterval(interval)
+})
+// scrollLeft.addEventListener("touchcancel", () => {
+//     clearInterval(interval)
+// })
 scrollLeft.addEventListener("mouseout", () => {
     clearInterval(interval)
 })
@@ -232,6 +243,17 @@ scrollRight.addEventListener("mousedown", () =>{
 scrollRight.addEventListener("mouseup", () => {
     clearInterval(interval)
 })
+scrollRight.addEventListener("touchstart", () =>{
+    interval = setInterval(() => {
+        scroll(2)
+    }, 0);
+})
+scrollRight.addEventListener("touchend", () => {
+    clearInterval(interval)
+})
+// scrollRight.addEventListener("touchcancel", () => {
+//     clearInterval(interval)
+// })
 scrollRight.addEventListener("mouseout", () => {
     clearInterval(interval)
 })
