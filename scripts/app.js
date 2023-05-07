@@ -174,7 +174,7 @@ function finishGame() {
     tryAgainButton.classList.remove("hidden")
     popup.classList.remove("close")
     pool.classList.remove("open")
-    popupTitle.textContent = `Вы спарвились за: ${timer.textContent}`
+    popupTitle.textContent = `Вы справились за: ${timer.textContent}`
     popupDescription.innerHTML = "Тренировать другой набор"
     timeMiliseconds.textContent = "00"
     timeSeconds.textContent = "00"
