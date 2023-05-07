@@ -63,7 +63,6 @@ function nextCards() {
         renderCards("eng")
     }
 }
-
 function chooseSet(text, set) {
     tryAgainButton.classList.add("hidden")
     popupTitle.textContent = "Вы выбрали набор:"
