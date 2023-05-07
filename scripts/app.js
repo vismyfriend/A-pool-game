@@ -1,4 +1,5 @@
 import allCards from "./utils/ques-answ.js"
+const isTouch = () => 'ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch || navigator.maxTouchPoints > 0 || window.navigator.msMaxTouchPoints > 0
 const allSets = document.querySelectorAll(".popup__set")
 const popup = document.querySelector(".popup")
 const popupTitle = document.querySelector(".popup__title")
@@ -27,10 +28,8 @@ let min = 0
 let max = 6
 let tens = "00"
 let seconds = "00"
-let minutes = "00"
 let interval = null
 let count = 0
-let tryAgain = null
 
 function startTimer() {
     tens++;
@@ -51,23 +50,6 @@ function startTimer() {
     }
 }
 
-// function tick() {
-//     sec++;
-//     if (sec >= 60) {
-//         sec = 0;
-//         minutes++;
-//     }
-// }
-// function add() {
-//     tick();
-//     timer.textContent = (minutes > 9 ? minutes : "0" + minutes) + ":" + (sec > 9 ? sec : "0" + sec);
-//     setTimer();
-// }
-// function setTimer() {
-//     t = setTimeout(add, 1000);
-// }
-
-
 function nextCards() {
     poolContainer.innerHTML = ""
     // очистили контейнер
@@ -81,9 +63,9 @@ function nextCards() {
         renderCards("eng")
     }
 }
-function chooseSet(text,set) {
+
+function chooseSet(text, set) {
     tryAgainButton.classList.add("hidden")
-    tryAgain = set
     popupTitle.textContent = "Вы выбрали набор:"
     popupDescription.textContent = "Варианты тренировок"
     popupSets.classList.add("hide")
@@ -91,7 +73,6 @@ function chooseSet(text,set) {
     findAPair.classList.add("show")
     chosenSet.classList.add("show")
     chosenSet.textContent = text
-    
 }
 function startGameFindPairs() {
     renderCards("ru")
@@ -99,30 +80,21 @@ function startGameFindPairs() {
     popup.classList.add("close")
     pool.classList.add("open")
     interval = setInterval(startTimer, 10);
-
 }
+
 function startGameCheckMemory() {
     startGameFindPairs()
     coverCards(pictureL)
-
 }
-
 
 allSets.forEach((set) => {
     // console.log(set)
     set.addEventListener("click", (evt) => {
         getArray(evt.target.dataset.set)
-        chooseSet(evt.target.textContent,evt.target.dataset.set)
-
+        chooseSet(evt.target.textContent, evt.target.dataset.set)
     })
 })
-checkMemory.addEventListener("click", (evt) => {
-    startGameCheckMemory()
 
-})
-findAPair.addEventListener("click", (evt) => {
-    startGameFindPairs()
-})
 function renderCards(lang) {
     let array = readyArray()
     // console.log(min,max)
@@ -136,9 +108,7 @@ function renderCards(lang) {
         someCard.addEventListener("click", match)
         someCard.dataset.id = shuffle[i].id
         poolContainer.append(someCard)
-
     }
-
 }
 // получаем и массив ниже и рандомно перемешиваем через готовую функции
 function getArray(set) {
@@ -155,17 +125,15 @@ function match(evt) {
         if (selectCard.dataset.id === evt.target.dataset.id && selectCard !== evt.target) {
             selectCard.classList.add("delete")
             evt.target.classList.add("delete")
-            count ++
+            count++
             console.log(count)
-            let amountOfCards = max - min
-            count === max - min? nextCards(): null
+            count === max - min ? nextCards() : null
         }
         selectCard.classList.remove("select")
         selectCard = null
     } else {
         evt.target.classList.add("select")
         selectCard = evt.target
-
     }
 }
 // на кнопку добавили функцию
@@ -187,9 +155,8 @@ function finishGame() {
     tens = "00";
     seconds = "00";
     poolContainer.innerHTML = ""
-
+    count = 0
 }
-next.addEventListener("click", nextCards)
 
 function coverCards(picture) {
     picture.classList.contains("again") ?
@@ -200,11 +167,13 @@ function coverCards(picture) {
 }
 
 function scroll(direction) {
-    popupSets.scrollBy(direction,0)
-    
+    popupSets.scrollBy(direction, 0)
 }
-tryAgainButton.addEventListener("click", startGameFindPairs)
 
+checkMemory.addEventListener("click", startGameCheckMemory)
+findAPair.addEventListener("click", startGameFindPairs)
+next.addEventListener("click", nextCards)
+tryAgainButton.addEventListener("click", startGameFindPairs)
 
 buttonCoverR.addEventListener("click", () => {
     coverCards(pictureR)
@@ -213,47 +182,45 @@ buttonCoverL.addEventListener("click", () => {
     coverCards(pictureL)
 })
 
-scrollLeft.addEventListener("mousedown", () =>{
-    interval = setInterval(() => {
-        scroll(-2)
-    }, 0);
-})
-scrollLeft.addEventListener("mouseup", () => {
-    clearInterval(interval)
-})
-scrollLeft.addEventListener("touchstart", () =>{
-    interval = setInterval(() => {
-        scroll(-2)
-    }, 0);
-})
-scrollLeft.addEventListener("touchend", () => {
-    clearInterval(interval)
-})
-// scrollLeft.addEventListener("touchcancel", () => {
-//     clearInterval(interval)
-// })
-scrollLeft.addEventListener("mouseout", () => {
-    clearInterval(interval)
-})
-scrollRight.addEventListener("mousedown", () =>{
-    interval = setInterval(() => {
-        scroll(2)
-    }, 0);
-})
-scrollRight.addEventListener("mouseup", () => {
-    clearInterval(interval)
-})
-scrollRight.addEventListener("touchstart", () =>{
-    interval = setInterval(() => {
-        scroll(2)
-    }, 0);
-})
-scrollRight.addEventListener("touchend", () => {
-    clearInterval(interval)
-})
-// scrollRight.addEventListener("touchcancel", () => {
-//     clearInterval(interval)
-// })
-scrollRight.addEventListener("mouseout", () => {
-    clearInterval(interval)
-})
+if (isTouch()) {
+    scrollLeft.addEventListener("touchstart", () => {
+        interval = setInterval(() => {
+            scroll(-2)
+        }, 0);
+    })
+    scrollLeft.addEventListener("touchend", () => {
+        clearInterval(interval)
+    })
+    scrollRight.addEventListener("touchstart", () => {
+        interval = setInterval(() => {
+            scroll(2)
+        }, 0);
+    })
+    scrollRight.addEventListener("touchend", () => {
+        clearInterval(interval)
+    })
+} else {
+    scrollLeft.addEventListener("mouseup", () => {
+        clearInterval(interval)
+    })
+
+    scrollLeft.addEventListener("mousedown", () => {
+        interval = setInterval(() => {
+            scroll(-2)
+        }, 0);
+    })
+    scrollLeft.addEventListener("mouseout", () => {
+        clearInterval(interval)
+    })
+    scrollRight.addEventListener("mousedown", () => {
+        interval = setInterval(() => {
+            scroll(2)
+        }, 0);
+    })
+    scrollRight.addEventListener("mouseup", () => {
+        clearInterval(interval)
+    })
+    scrollRight.addEventListener("mouseout", () => {
+        clearInterval(interval)
+    })
+}
