@@ -169,6 +169,8 @@ display: none;
     list-style: none;
     /* убрали точки */
     /* scroll-behavior: smooth; */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .popup__sets.hide {
@@ -398,11 +400,11 @@ display: none;
             transform: scale(0.9);
 }
 .scroll-left, .scroll-right {
-    background-image: url(../images/Polygon\ 2.png);
+    background-image: url(../images/scroll\ right.png);
     background-size: cover;
     position: absolute;
     
-    width: 35px;
+    width: 25px;
     height: 126px;
     background-color: transparent;
     border: 0;
@@ -413,9 +415,9 @@ display: none;
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
     left: 0;
-    top: 130px;
+    top: 132px;
 }
 .scroll-right{
     right: 0;
-    top: 139px;
+    top: 132px;
 }
