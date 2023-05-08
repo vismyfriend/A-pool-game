@@ -414,7 +414,7 @@ display: none;
 .scroll-left, .scroll-right {
     background-image: url(../images/scroll\ stick\ short.png);
     background-size: cover;
-    position: fixed  ;
+    position: absolute  ;
     
     /* width: 22px; */
     height: 132px;
@@ -428,9 +428,10 @@ display: none;
         -ms-transform: rotate(180deg);
             transform: rotate(180deg); */
     left: 19px;
-    top: 130px;
+    top: 126px;
 }
 .scroll-right{
-    right: 17px;
-    top: 130px;
+    right: 7px;
+    top: 126px;
+    
 }
