@@ -168,9 +168,23 @@ function match(evt) {
 
     }
 }
-// на кнопку добавили функцию
+
+function coverCards(picture) {
+    picture.classList.contains("again") ?
+        picture.classList.remove("shown", "again") :
+        picture.classList.contains("shown") ?
+            picture.classList.add("again") :
+            picture.classList.add("shown")
+}
+function uncoverCards(picture) {
+    picture.classList.remove("shown","again")
+}
+
+
 function finishGame() {
     clearInterval(interval)
+    uncoverCards(pictureL)
+    uncoverCards(pictureR)
     tryAgainButton.classList.remove("hidden")
     popup.classList.remove("close")
     pool.classList.remove("open")
@@ -182,6 +196,8 @@ function finishGame() {
     checkMemory.classList.remove("show")
     findAPair.classList.remove("show")
     chosenSet.classList.remove("show")
+    
+    
     min = 0
     max = 6
     tens = "00";
@@ -191,13 +207,7 @@ function finishGame() {
 }
 next.addEventListener("click", nextCards)
 
-function coverCards(picture) {
-    picture.classList.contains("again") ?
-        picture.classList.remove("shown", "again") :
-        picture.classList.contains("shown") ?
-            picture.classList.add("again") :
-            picture.classList.add("shown")
-}
+
 
 function scroll(direction) {
     popupSets.scrollBy(direction,0)

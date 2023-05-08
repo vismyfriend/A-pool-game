@@ -246,6 +246,7 @@ display: none;
     transform: translateX(-50%);
     top: 10px ;
     width: 67px ;
+    display: none;
 }
 .pool__container {
     grid-template-columns: repeat(2, 1fr);
