@@ -429,7 +429,7 @@ display: none;
     height: 135px;
     background-color: transparent;
     border: 0;
-    
+    display:  none;
 
 }
 .scroll-left {
@@ -438,6 +438,7 @@ display: none;
             transform: rotate(180deg); */
     left: 19px;
     top: 131px;
+    
 }
 .scroll-right{
     right: 15px;
