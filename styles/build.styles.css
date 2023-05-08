@@ -414,7 +414,7 @@ display: none;
 .scroll-left, .scroll-right {
     background-image: url(../images/scroll\ stick\ short.png);
     background-size: cover;
-    position: absolute;
+    position: fixed  ;
     
     /* width: 22px; */
     height: 132px;
