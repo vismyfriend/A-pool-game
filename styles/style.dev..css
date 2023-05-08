@@ -333,7 +333,7 @@ display: none;
     transform: scale(0.9);
 }
 .scroll-left, .scroll-right {
-    background-image: url(../images/scroll\ right.png);
+    background-image: url(../images/scroll\ stick.png);
     background-size: cover;
     position: absolute;
     

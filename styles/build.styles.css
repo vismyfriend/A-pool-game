@@ -412,24 +412,25 @@ display: none;
             transform: scale(0.9);
 }
 .scroll-left, .scroll-right {
-    background-image: url(../images/scroll\ right\ stick1.png);
+    background-image: url(../images/scroll\ stick\ short.png);
     background-size: cover;
     position: absolute;
     
-    width: 27px;
-    height: 160px;
+    /* width: 22px; */
+    height: 132px;
     background-color: transparent;
     border: 0;
+    
 
 }
 .scroll-left {
     /* -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
             transform: rotate(180deg); */
-    left: 0;
-    top: 132px;
+    left: 19px;
+    top: 130px;
 }
 .scroll-right{
-    right: 0;
-    top: 132px;
+    right: 17px;
+    top: 130px;
 }
