@@ -8,6 +8,7 @@
     background-position: 72% 0;
     background-size: cover;
     font-family: neucha;
+    color: #000000;
 }
 
 
@@ -63,6 +64,7 @@
     width: 110px;
     height: 40px;
     font-size: 20px;
+    color: #000000;
 
 }
 .picture-left.shown.again{
@@ -103,6 +105,7 @@
     right: 36px;
     top: 62px;
     box-shadow: 0 2px 6px 1px #000000;
+    color: #000000;
 }
 
 .try-again.hidden {
@@ -246,6 +249,7 @@ display: none;
     transform: translateX(-50%);
     top: 10px ;
     width: 67px ;
+    display: none;
 }
 .pool__container {
     grid-template-columns: repeat(2, 1fr);
@@ -279,6 +283,7 @@ display: none;
     border-radius: 20px;
     box-shadow: 0 2px 6px 1px #000000;
     font-size: 22px;
+    color: #000000;
 
 }
 
@@ -333,7 +338,7 @@ display: none;
     transform: scale(0.9);
 }
 .scroll-left, .scroll-right {
-    background-image: url(../images/scroll\ right.png);
+    background-image: url(../images/scroll\ stick.png);
     background-size: cover;
     position: absolute;
     

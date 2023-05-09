@@ -135,27 +135,6 @@ function match(evt) {
         selectCard = evt.target
     }
 }
-// на кнопку добавили функцию
-function finishGame() {
-    clearInterval(interval)
-    tryAgainButton.classList.remove("hidden")
-    popup.classList.remove("close")
-    pool.classList.remove("open")
-    popupTitle.textContent = `Вы спарвились за: ${timer.textContent}`
-    popupDescription.innerHTML = "Тренировать другой набор"
-    timeMiliseconds.textContent = "00"
-    timeSeconds.textContent = "00"
-    popupSets.classList.remove("hide")
-    checkMemory.classList.remove("show")
-    findAPair.classList.remove("show")
-    chosenSet.classList.remove("show")
-    min = 0
-    max = 6
-    tens = "00";
-    seconds = "00";
-    poolContainer.innerHTML = ""
-    count = 0
-}
 
 function coverCards(picture) {
     picture.classList.contains("again") ?
@@ -164,6 +143,37 @@ function coverCards(picture) {
             picture.classList.add("again") :
             picture.classList.add("shown")
 }
+function uncoverCards(picture) {
+    picture.classList.remove("shown","again")
+}
+
+
+function finishGame() {
+    clearInterval(interval)
+    uncoverCards(pictureL)
+    uncoverCards(pictureR)
+    tryAgainButton.classList.remove("hidden")
+    popup.classList.remove("close")
+    pool.classList.remove("open")
+    popupTitle.textContent = `Вы справились за: ${timer.textContent}`
+    popupDescription.innerHTML = "Тренировать другой набор"
+    timeMiliseconds.textContent = "00"
+    timeSeconds.textContent = "00"
+    popupSets.classList.remove("hide")
+    checkMemory.classList.remove("show")
+    findAPair.classList.remove("show")
+    chosenSet.classList.remove("show")
+    
+    
+    min = 0
+    max = 6
+    tens = "00";
+    seconds = "00";
+    poolContainer.innerHTML = ""
+    count = 0
+}
+
+
 
 function scroll(direction) {
     popupSets.scrollBy(direction, 0)

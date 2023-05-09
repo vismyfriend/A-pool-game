@@ -7,6 +7,7 @@
     background-position: 72% 0;
     background-size: cover;
     font-family: neucha;
+    color: #000000;
 }
 
 
@@ -25,6 +26,8 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
     padding: 15px;
+    
+    
 }
 
 .picture-right {
@@ -72,10 +75,18 @@
     width: 110px;
     height: 40px;
     font-size: 20px;
+<<<<<<< HEAD
+=======
+    color: #000000;
+>>>>>>> 36fb897a97bbfa89c76be60a84a28c07edf97997
 }
 .picture-left.shown.again{
   left: 50%;
 }
+/* .picture-left.finish, 
+.picture-right.finish {
+    display: none;
+} */
 .popup.close {
     -webkit-transform: scale(0);
         -ms-transform: scale(0);
@@ -103,6 +114,7 @@
 .try-again{
     position: absolute;
     background: #80FF01;
+    color: #000000;
     border-radius: 20px;
     margin: 0 ;
     height: 40px;
@@ -290,6 +302,7 @@ display: none;
             transform: translateX(-50%);
     top: 10px ;
     width: 67px ;
+    display: none;
 }
 .pool__container {
     -ms-grid-columns: 1fr 10px 1fr;
@@ -330,7 +343,7 @@ display: none;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
             box-shadow: 0 2px 6px 1px #000000;
     font-size: 22px;
-
+    color: #000000;
 }
 
 .next {
@@ -343,7 +356,7 @@ display: none;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
             box-shadow: 0 2px 6px 1px #000000;
     font-size: 25px;
-
+    color: #000000;
 }
 
 .card.eng {
@@ -400,24 +413,27 @@ display: none;
             transform: scale(0.9);
 }
 .scroll-left, .scroll-right {
-    background-image: url(../images/scroll\ right.png);
+    background-image: url(../images/scroll\ stick\ short.png);
     background-size: cover;
-    position: absolute;
+    position: absolute  ;
     
-    width: 25px;
-    height: 126px;
+    /* width: 22px; */
+    height: 135px;
     background-color: transparent;
     border: 0;
+    display:  none;
 
 }
 .scroll-left {
-    -webkit-transform: rotate(180deg);
+    /* -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
-    left: 0;
-    top: 132px;
+            transform: rotate(180deg); */
+    left: 19px;
+    top: 131px;
+    
 }
 .scroll-right{
-    right: 0;
-    top: 132px;
+    right: 15px;
+    top: 131px;
+    
 }
