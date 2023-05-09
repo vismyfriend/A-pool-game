@@ -75,10 +75,7 @@
     width: 110px;
     height: 40px;
     font-size: 20px;
-<<<<<<< HEAD
-=======
     color: #000000;
->>>>>>> 36fb897a97bbfa89c76be60a84a28c07edf97997
 }
 .picture-left.shown.again{
   left: 50%;
@@ -421,7 +418,7 @@ display: none;
     height: 135px;
     background-color: transparent;
     border: 0;
-    display:  none;
+    /* display:  none; */
 
 }
 .scroll-left {
