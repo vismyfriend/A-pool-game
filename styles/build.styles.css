@@ -431,5 +431,6 @@ display: none;
 .scroll-right{
     right: 15px;
     top: 131px;
+    left: auto;
     
 }
