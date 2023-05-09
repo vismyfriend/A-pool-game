@@ -20,14 +20,14 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     padding: 15px;
-    
-    
+
+
 }
 
 .picture-right {
@@ -45,10 +45,12 @@
     /* сделать контур? или заранее у самой картинки сделать? */
     /* при другом девайсе backgrond picture меняется */
 }
-.picture-right.shown{
+
+.picture-right.shown {
     right: 10%;
-    
+
 }
+
 /* .picture-right.click2{
     right: 50%;
 
@@ -64,9 +66,11 @@
     height: 84%;
 
 }
-.picture-left.shown{
+
+.picture-left.shown {
     left: 10%;
 }
+
 .header__back {
     cursor: pointer;
     background: #FFF27B;
@@ -77,17 +81,19 @@
     font-size: 20px;
     color: #000000;
 }
-.picture-left.shown.again{
-  left: 50%;
+
+.picture-left.shown.again {
+    left: 50%;
 }
+
 /* .picture-left.finish, 
 .picture-right.finish {
     display: none;
 } */
 .popup.close {
     -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
 }
 
 .popup {
@@ -98,22 +104,22 @@
     width: 316px;
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     top: 85px;
     padding: 15px;
     -webkit-box-shadow: 0 0 20px 3px #000000;
-            box-shadow: 0 0 20px 3px #000000;
+    box-shadow: 0 0 20px 3px #000000;
     background: #D9D9D9;
     border-radius: 35px;
 }
 
-.try-again{
+.try-again {
     position: absolute;
     background: #80FF01;
     color: #000000;
     border-radius: 20px;
-    margin: 0 ;
+    margin: 0;
     height: 40px;
     width: 110px;
     font-size: 20px;
@@ -121,21 +127,22 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     right: 36px;
     top: 62px;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
-            box-shadow: 0 2px 6px 1px #000000;
+    box-shadow: 0 2px 6px 1px #000000;
 }
 
 .try-again.hidden {
-display: none;
+    display: none;
 
 }
+
 .popup__description {
     margin: 5px 0;
     height: 35px;
@@ -146,11 +153,11 @@ display: none;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     min-width: 96.54px;
     height: 46px;
     left: 49.09px;
@@ -158,7 +165,7 @@ display: none;
     background: #FFF27B;
     border-radius: 20px;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
-            box-shadow: 0 2px 6px 1px #000000;
+    box-shadow: 0 2px 6px 1px #000000;
 }
 
 .popup__sets {
@@ -212,7 +219,7 @@ display: none;
     gap: 10px;
     /* гэп работает внутри флекс элементов */
     margin-bottom: 10px;
-    
+
 }
 
 .popup__find-a-pair img,
@@ -233,13 +240,13 @@ display: none;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
-            box-shadow: 0 2px 6px 1px #000000;
+    box-shadow: 0 2px 6px 1px #000000;
 }
 
 .popup__find-a-pair {
@@ -255,14 +262,14 @@ display: none;
     width: 180px;
     font-size: 20px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
-            box-shadow: 0 2px 6px 1px #000000;
-    
+    box-shadow: 0 2px 6px 1px #000000;
+
 }
 
 .popup__chosen-set.show,
@@ -284,9 +291,10 @@ display: none;
     bottom: 0;
     background-size: 100% 100%;
     display: none;
-    
+
 
 }
+
 .timer {
     font-size: 35px;
     color: #ffffff;
@@ -295,12 +303,13 @@ display: none;
     /* background-color: rgba(0,0,0,0.5); */
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    top: 10px ;
-    width: 67px ;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 10px;
+    width: 67px;
     display: none;
 }
+
 .pool__container {
     -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -312,6 +321,7 @@ display: none;
     gap: 10px 10px;
     grid-auto-flow: dense;
 }
+
 .pool.open {
     display: block;
 }
@@ -326,8 +336,8 @@ display: none;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
 }
 
 .cover-l,
@@ -338,7 +348,7 @@ display: none;
     background: #80FFC2;
     border-radius: 20px;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
-            box-shadow: 0 2px 6px 1px #000000;
+    box-shadow: 0 2px 6px 1px #000000;
     font-size: 22px;
     color: #000000;
 }
@@ -351,7 +361,7 @@ display: none;
     background: #7BE7FF;
     border-radius: 20px;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
-            box-shadow: 0 2px 6px 1px #000000;
+    box-shadow: 0 2px 6px 1px #000000;
     font-size: 25px;
     color: #000000;
 }
@@ -379,11 +389,11 @@ display: none;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: 18px;
     text-align: center;
     padding: 5px;
@@ -396,8 +406,8 @@ display: none;
 
 .card.delete {
     -webkit-transform: scaleY(0);
-        -ms-transform: scaleY(0);
-            transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
 }
 
 .card.select {
@@ -406,17 +416,19 @@ display: none;
 
 .card:active {
     -webkit-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-            transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
-.scroll-left, .scroll-right {
+
+.scroll-left,
+.scroll-right {
     background-image: url(../images/scroll\ stick\ short.png);
     background-position: center;
     background-size: 100% 100%;
-    position: absolute  ;
+    position: absolute;
     padding: 0;
     width: 10px;
-    
+
 
     height: 135px;
     background-color: transparent;
@@ -424,15 +436,90 @@ display: none;
     /* display:  none; */
 
 }
+
 .scroll-left {
 
     left: 19px;
     top: 128px;
-    
+
 }
-.scroll-right{
+
+.scroll-right {
     right: 18px;
     top: 128px;
     left: auto;
-    
+
+}
+
+.homer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+@media screen and (max-width: 700px) {
+    .homer {
+        display: none;
+    }
+}
+@media screen and (min-width: 700px) {
+    .pool {
+        width: 400px ;
+        height: 700px;
+        right: auto;
+        bottom: auto;
+        left: 15px;
+        top: 15px;
+    }
+    .pool__buttons {
+        bottom: auto;
+        top: 617px;
+        right: auto;
+        width: 400px;
+        left: 15px;
+        padding: 0;
+        
+    }
+    .picture-left, .picture-right {
+        width: 157px ;
+        right: auto;
+        left: -100%;
+        height: 555px;
+        top: 56px;
+    }
+    .picture-left.shown {
+        left: 56px;
+    }
+    .picture-left.shown.again {
+        left: 217px;
+    }
+    .picture-right.shown {
+        left: 217px;
+    }
+    .homer {
+        width: 420px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .pool {
+        left: 20%;
+        
+    }
+    .pool__buttons {
+        
+        left: 20%;
+        
+        
+    }
+   
+   
+    .picture-left.shown {
+        left: calc(20% + 40px) ;
+    }
+    .picture-left.shown.again {
+        left: calc(20% + 202px);
+    }
+    .picture-right.shown {
+        left: calc(20% + 202px);
+}
 }
