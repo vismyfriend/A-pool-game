@@ -1,13 +1,5 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @import url(https://fonts.googleapis.com/css?family=Neucha:regular);
 @import url(../vendor/normalize.css);
-
 
 .body {
     background-image: url(../images/background.png);
@@ -76,19 +68,20 @@
     left: 10%;
 }
 .header__back {
-
+    cursor: pointer;
     background: #FFF27B;
     border: 2px solid #000000;
     border-radius: 20px;
     width: 110px;
     height: 40px;
     font-size: 20px;
+<<<<<<< HEAD
+=======
     color: #000000;
+>>>>>>> 36fb897a97bbfa89c76be60a84a28c07edf97997
 }
 .picture-left.shown.again{
   left: 50%;
-     
-
 }
 /* .picture-left.finish, 
 .picture-right.finish {
@@ -165,7 +158,6 @@ display: none;
     height: 46px;
     left: 49.09px;
     top: 304px;
-
     background: #FFF27B;
     border-radius: 20px;
     -webkit-box-shadow: 0 2px 6px 1px #000000;
