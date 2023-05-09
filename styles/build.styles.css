@@ -411,10 +411,11 @@ display: none;
 }
 .scroll-left, .scroll-right {
     background-image: url(../images/scroll\ stick\ short.png);
-    background-size: cover;
+    background-position: auto;
+    background-size: 100% 100%;
     position: absolute  ;
     
-    /* width: 22px; */
+
     height: 135px;
     background-color: transparent;
     border: 0;
@@ -422,9 +423,7 @@ display: none;
 
 }
 .scroll-left {
-    /* -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-            transform: rotate(180deg); */
+
     left: 19px;
     top: 131px;
     
