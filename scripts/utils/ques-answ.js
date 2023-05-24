@@ -855,5 +855,557 @@ const allCards = {
             eng: "	will	"
         },
     ],
+    IrrV_a3: [
+        {
+            id: 3001,
+            ru: "	broke , broken	",
+            eng: "	break	"
+        },
+        {
+            id: 3002,
+            ru: "	beat , beaten	",
+            eng: "	beat	"
+        },
+        {
+            id: 3003,
+            ru: "	became , become	",
+            eng: "	become	"
+        },
+        {
+            id: 3004,
+            ru: "	began , begun	",
+            eng: "	begin	"
+        },
+        {
+            id: 3005,
+            ru: "	blew , blown	",
+            eng: "	blow	"
+        },
+        {
+            id: 3006,
+            ru: "	built , built	",
+            eng: "	build	"
+        },
+        {
+            id: 3007,
+            ru: "	burnt , burnt	",
+            eng: "	burn	"
+        },
+        {
+            id: 3008,
+            ru: "	bought , bought	",
+            eng: "	buy	"
+        },
+        {
+            id: 3009,
+            ru: "	brought , brought	",
+            eng: "	bring	"
+        },
+        {
+            id: 3010,
+            ru: "	was/were , been	",
+            eng: "	be	"
+        },
+        {
+            id: 3011,
+            ru: "	bit , bit	",
+            eng: "	bite	"
+        },
+        {
+            id: 3012,
+            ru: "	came , come	",
+            eng: "	come	"
+        },
+        {
+            id: 3013,
+            ru: "	chose , chosen	",
+            eng: "	choose	"
+        },
+        {
+            id: 3014,
+            ru: "	caught , caught	",
+            eng: "	catch	"
+        },
+        {
+            id: 3015,
+            ru: "	crept , crept	",
+            eng: "	creep	"
+        },
+        {
+            id: 3016,
+            ru: "	cost , cost	",
+            eng: "	cost	"
+        },
+        {
+            id: 3017,
+            ru: "	cut , cut	",
+            eng: "	cut	"
+        },
+        {
+            id: 3018,
+            ru: "	dealt , dealt	",
+            eng: "	deal	"
+        },
+        {
+            id: 3019,
+            ru: "	dug , dug	",
+            eng: "	dig	"
+        },
+        {
+            id: 3020,
+            ru: "	did , done	",
+            eng: "	do	"
+        },
+        {
+            id: 3021,
+            ru: "	drove , driven	",
+            eng: "	drive	"
+        },
+        {
+            id: 3022,
+            ru: "	drew , drawn	",
+            eng: "	draw	"
+        },
+        {
+            id: 3023,
+            ru: "	drank , drunk	",
+            eng: "	drink	"
+        },
+        {
+            id: 3024,
+            ru: "	ate , eaten	",
+            eng: "	eat	"
+        },
+        {
+            id: 3025,
+            ru: "	fell , fallen	",
+            eng: "	fall	"
+        },
+        {
+            id: 3026,
+            ru: "	fed , fed	",
+            eng: "	feed	"
+        },
+        {
+            id: 3027,
+            ru: "	felt , felt	",
+            eng: "	feel	"
+        },
+        {
+            id: 3028,
+            ru: "	fought , fought	",
+            eng: "	fight	"
+        },
+        {
+            id: 3029,
+            ru: "	found , found	",
+            eng: "	find	"
+        },
+        {
+            id: 3030,
+            ru: "	flew , flown	",
+            eng: "	fly	"
+        },
+        {
+            id: 3031,
+            ru: "	forbade , forbidden	",
+            eng: "	forbid	"
+        },
+        {
+            id: 3032,
+            ru: "	forgot , forgotten	",
+            eng: "	forget	"
+        },
+        {
+            id: 3033,
+            ru: "	forgave , forgiven	",
+            eng: "	forgive	"
+        },
+        {
+            id: 3034,
+            ru: "	froze , frozen	",
+            eng: "	freeze	"
+        },
+        {
+            id: 3035,
+            ru: "	grew , grown	",
+            eng: "	grow	"
+        },
+        {
+            id: 3036,
+            ru: "	got , got	",
+            eng: "	get	"
+        },
+        {
+            id: 3037,
+            ru: "	gave , given	",
+            eng: "	give	"
+        },
+        {
+            id: 3038,
+            ru: "	went , gone	",
+            eng: "	go	"
+        },
+        {
+            id: 3039,
+            ru: "	had , had	",
+            eng: "	have	"
+        },
+        {
+            id: 3040,
+            ru: "	heard , heard	",
+            eng: "	hear	"
+        },
+        {
+            id: 3041,
+            ru: "	hid , hidden	",
+            eng: "	hide	"
+        },
+        {
+            id: 3042,
+            ru: "	hit , hit	",
+            eng: "	hit	"
+        },
+        {
+            id: 3043,
+            ru: "	hurt , hurt	",
+            eng: "	hurt	"
+        },
+        {
+            id: 3044,
+            ru: "	held , held	",
+            eng: "	hold	"
+        },
+        {
+            id: 3045,
+            ru: "	kept , kept	",
+            eng: "	keep	"
+        },
+        {
+            id: 3046,
+            ru: "	knew , known	",
+            eng: "	know	"
+        },
+        {
+            id: 3047,
+            ru: "	learnt , learnt	",
+            eng: "	learn	"
+        },
+        {
+            id: 3048,
+            ru: "	left , left	",
+            eng: "	leave	"
+        },
+        {
+            id: 3049,
+            ru: "	lent , lent	",
+            eng: "	lend	"
+        },
+        {
+            id: 3050,
+            ru: "	let , let	",
+            eng: "	let	"
+        },
+        {
+            id: 3051,
+            ru: "	lost , lost	",
+            eng: "	lose	"
+        },
+        {
+            id: 3052,
+            ru: "	laid , laid	",
+            eng: "	lay	"
+        },
+        {
+            id: 3053,
+            ru: "	lay , lain	",
+            eng: "	lie	"
+        },
+        {
+            id: 3054,
+            ru: "	made , made	",
+            eng: "	make	"
+        },
+        {
+            id: 3055,
+            ru: "	meant , meant	",
+            eng: "	mean	"
+        },
+        {
+            id: 3056,
+            ru: "	met , met	",
+            eng: "	meet	"
+        },
+        {
+            id: 3057,
+            ru: "	paid , paid	",
+            eng: "	pay	"
+        },
+        {
+            id: 3058,
+            ru: "	put , put	",
+            eng: "	put	"
+        },
+        {
+            id: 3059,
+            ru: "	read , read	",
+            eng: "	read	"
+        },
+        {
+            id: 3060,
+            ru: "	rode , ridden	",
+            eng: "	ride	"
+        },
+        {
+            id: 3061,
+            ru: "	rang , rung	",
+            eng: "	ring	"
+        },
+        {
+            id: 3062,
+            ru: "	ran , run	",
+            eng: "	run	"
+        },
+        {
+            id: 3063,
+            ru: "	rose , risen	",
+            eng: "	rise	"
+        },
+        {
+            id: 3064,
+            ru: "	said , said	",
+            eng: "	say	"
+        },
+        {
+            id: 3065,
+            ru: "	saw , seen	",
+            eng: "	see	"
+        },
+        {
+            id: 3066,
+            ru: "	sold , sold	",
+            eng: "	sell	"
+        },
+        {
+            id: 3067,
+            ru: "	sent , sent	",
+            eng: "	send	"
+        },
+        {
+            id: 3068,
+            ru: "	shook , shaken	",
+            eng: "	shake	"
+        },
+        {
+            id: 3069,
+            ru: "	shot , shot	",
+            eng: "	shoot	"
+        },
+        {
+            id: 3070,
+            ru: "	shut , shut	",
+            eng: "	shut	"
+        },
+        {
+            id: 3071,
+            ru: "	sang , sung	",
+            eng: "	sing	"
+        },
+        {
+            id: 3072,
+            ru: "	sank , sunk	",
+            eng: "	sink	"
+        },
+        {
+            id: 3073,
+            ru: "	sat , sat	",
+            eng: "	sit	"
+        },
+        {
+            id: 3074,
+            ru: "	slept , slept	",
+            eng: "	sleep	"
+        },
+        {
+            id: 3075,
+            ru: "	slid , slid	",
+            eng: "	slide	"
+        },
+        {
+            id: 3076,
+            ru: "	spoke , spoken	",
+            eng: "	speak	"
+        },
+        {
+            id: 3077,
+            ru: "	spent , spent	",
+            eng: "	spend	"
+        },
+        {
+            id: 3078,
+            ru: "	spat , spat	",
+            eng: "	spit	"
+        },
+        {
+            id: 3079,
+            ru: "	stood , stood	",
+            eng: "	stand	"
+        },
+        {
+            id: 3080,
+            ru: "	stole , stolen	",
+            eng: "	steal	"
+        },
+        {
+            id: 3081,
+            ru: "	stuck , stuck	",
+            eng: "	stick	"
+        },
+        {
+            id: 3082,
+            ru: "	stank , stunk	",
+            eng: "	stink	"
+        },
+        {
+            id: 3083,
+            ru: "	struck , struck	",
+            eng: "	strike	"
+        },
+        {
+            id: 3084,
+            ru: "	swore , sworn	",
+            eng: "	swear	"
+        },
+        {
+            id: 3085,
+            ru: "	swept , swept	",
+            eng: "	sweep	"
+        },
+        {
+            id: 3086,
+            ru: "	swam , swum	",
+            eng: "	swim	"
+        },
+        {
+            id: 3087,
+            ru: "	swung , swung	",
+            eng: "	swing	"
+        },
+        {
+            id: 3088,
+            ru: "	took , taken	",
+            eng: "	take	"
+        },
+        {
+            id: 3089,
+            ru: "	taught , taught	",
+            eng: "	teach	"
+        },
+        {
+            id: 3090,
+            ru: "	tore , torn	",
+            eng: "	tear	"
+        },
+        {
+            id: 3091,
+            ru: "	told , told	",
+            eng: "	tell	"
+        },
+        {
+            id: 3092,
+            ru: "	thought , thought	",
+            eng: "	think	"
+        },
+        {
+            id: 3093,
+            ru: "	threw , thrown	",
+            eng: "	throw	"
+        },
+        {
+            id: 3094,
+            ru: "	understood , understood	",
+            eng: "	understand	"
+        },
+        {
+            id: 3095,
+            ru: "	woke up , woken up	",
+            eng: "	wake up	"
+        },
+        {
+            id: 3096,
+            ru: "	wore , worn	",
+            eng: "	wear	"
+        },
+        {
+            id: 3097,
+            ru: "	wrote , written	",
+            eng: "	write	"
+        },
+        {
+            id: 3098,
+            ru: "	wept , wept	",
+            eng: "	weep	"
+        },
+        {
+            id: 3099,
+            ru: "	won , won	",
+            eng: "	win	"
+        },
+        {
+            id: 3100,
+            ru: "	misunderstood , misunderstood	",
+            eng: "	misunderstand	"
+        },
+        {
+            id: 3101,
+            ru: "	misspelt , misspelt	",
+            eng: "	misspell	"
+        },
+        {
+            id: 3102,
+            ru: "	mistook , mistaken	",
+            eng: "	mistake	"
+        },
+        {
+            id: 3103,
+            ru: "	misheard , misheard	",
+            eng: "	mishear	"
+        },
+        {
+            id: 3104,
+            ru: "	overslept , overslept	",
+            eng: "	oversleep	"
+        },
+        {
+            id: 3105,
+            ru: "	overate , overeaten	",
+            eng: "	overeat	"
+        },
+        {
+            id: 3106,
+            ru: "	overpaid , overpaid	",
+            eng: "	overpay	"
+        },
+        {
+            id: 3107,
+            ru: "	could	",
+            eng: "	can	"
+        },
+        {
+            id: 3108,
+            ru: "	should	",
+            eng: "	shall	"
+        },
+        {
+            id: 3109,
+            ru: "	might	",
+            eng: "	may	"
+        },
+        {
+            id: 3110,
+            ru: "	would + V	",
+            eng: "	will	"
+        },
+    ]
 }
 export default allCards
