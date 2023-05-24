@@ -1959,5 +1959,118 @@ const allCards = {
             eng: "	will	"
         },
     ],
+    Irregular_verbs_F_K: [
+        
+        {
+            id: 2025,
+            ru: "	fell , fallen , падать	",
+            eng: "	fall	"
+        },
+        {
+            id: 2026,
+            ru: "	fed , fed , кормить	",
+            eng: "	feed	"
+        },
+        {
+            id: 2027,
+            ru: "	felt , felt , чувствовать	",
+            eng: "	feel	"
+        },
+        {
+            id: 2028,
+            ru: "	fought , fought , сражаться	",
+            eng: "	fight	"
+        },
+        {
+            id: 2029,
+            ru: "	found , found , находить	",
+            eng: "	find	"
+        },
+        {
+            id: 2030,
+            ru: "	flew , flown , летать	",
+            eng: "	fly	"
+        },
+        {
+            id: 2031,
+            ru: "	forbade , forbidden , запрещать	",
+            eng: "	forbid	"
+        },
+        {
+            id: 2032,
+            ru: "	forgot , forgotten , забывать	",
+            eng: "	forget	"
+        },
+        {
+            id: 2033,
+            ru: "	forgave , forgiven , прощать	",
+            eng: "	forgive	"
+        },
+        {
+            id: 2034,
+            ru: "	froze , frozen , замерзать	",
+            eng: "	freeze	"
+        },
+        {
+            id: 2035,
+            ru: "	grew , grown , расти	",
+            eng: "	grow	"
+        },
+        {
+            id: 2036,
+            ru: "	got , got , получать	",
+            eng: "	get	"
+        },
+        {
+            id: 2037,
+            ru: "	gave , given , давать	",
+            eng: "	give	"
+        },
+        {
+            id: 2038,
+            ru: "	went , gone , ходить	",
+            eng: "	go	"
+        },
+        {
+            id: 2039,
+            ru: "	had , had , иметь	",
+            eng: "	have	"
+        },
+        {
+            id: 2040,
+            ru: "	heard , heard , слышать	",
+            eng: "	hear	"
+        },
+        {
+            id: 2041,
+            ru: "	hid , hidden , прятать	",
+            eng: "	hide	"
+        },
+        {
+            id: 2042,
+            ru: "	hit , hit , ударять	",
+            eng: "	hit	"
+        },
+        {
+            id: 2043,
+            ru: "	hurt , hurt , причинять боль	",
+            eng: "	hurt	"
+        },
+        {
+            id: 2044,
+            ru: "	held , held , держать	",
+            eng: "	hold	"
+        },
+        {
+            id: 2045,
+            ru: "	kept , kept , хранить	",
+            eng: "	keep	"
+        },
+        {
+            id: 2046,
+            ru: "	knew , known , знать	",
+            eng: "	know	"
+        }
+    ],
 }
 export default allCards
