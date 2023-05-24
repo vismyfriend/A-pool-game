@@ -1408,556 +1408,556 @@ const allCards = {
         },
     ],
     Irregular_verbs_En_Ru: [
-        {					
-            id	:	2001	,		
-            ru	:	"	break	"	,
-            eng	:	"	broke , broken , ломать	"	
-            }	,				
-            {					
-            id	:	2002	,		
-            ru	:	"	beat	"	,
-            eng	:	"	beat , beaten , бить, побеждать	"	
-            }	,				
-            {					
-            id	:	2003	,		
-            ru	:	"	become	"	,
-            eng	:	"	became , become , становиться	"	
-            }	,				
-            {					
-            id	:	2004	,		
-            ru	:	"	begin	"	,
-            eng	:	"	began , begun , начинать	"	
-            }	,				
-            {					
-            id	:	2005	,		
-            ru	:	"	blow	"	,
-            eng	:	"	blew , blown , дуть	"	
-            }	,				
-            {					
-            id	:	2006	,		
-            ru	:	"	build	"	,
-            eng	:	"	built , built , строить	"	
-            }	,				
-            {					
-            id	:	2007	,		
-            ru	:	"	burn	"	,
-            eng	:	"	burnt , burnt , сжигать, гореть	"	
-            }	,				
-            {					
-            id	:	2008	,		
-            ru	:	"	buy	"	,
-            eng	:	"	bought , bought , покупать	"	
-            }	,				
-            {					
-            id	:	2009	,		
-            ru	:	"	bring	"	,
-            eng	:	"	brought , brought , приносить	"	
-            }	,				
-            {					
-            id	:	2010	,		
-            ru	:	"	be	"	,
-            eng	:	"	was/were , been , быть	"	
-            }	,				
-            {					
-            id	:	2011	,		
-            ru	:	"	bite	"	,
-            eng	:	"	bit , bit , кусать	"	
-            }	,				
-            {					
-            id	:	2012	,		
-            ru	:	"	come	"	,
-            eng	:	"	came , come , приходить	"	
-            }	,				
-            {					
-            id	:	2013	,		
-            ru	:	"	choose	"	,
-            eng	:	"	chose , chosen , выбирать	"	
-            }	,				
-            {					
-            id	:	2014	,		
-            ru	:	"	catch	"	,
-            eng	:	"	caught , caught , ловить	"	
-            }	,				
-            {					
-            id	:	2015	,		
-            ru	:	"	creep	"	,
-            eng	:	"	crept , crept , ползать	"	
-            }	,				
-            {					
-            id	:	2016	,		
-            ru	:	"	cost	"	,
-            eng	:	"	cost , cost , стоить	"	
-            }	,				
-            {					
-            id	:	2017	,		
-            ru	:	"	cut	"	,
-            eng	:	"	cut , cut , резать	"	
-            }	,				
-            {					
-            id	:	2018	,		
-            ru	:	"	deal	"	,
-            eng	:	"	dealt , dealt , иметь дела	"	
-            }	,				
-            {					
-            id	:	2019	,		
-            ru	:	"	dig	"	,
-            eng	:	"	dug , dug , копать	"	
-            }	,				
-            {					
-            id	:	2020	,		
-            ru	:	"	do	"	,
-            eng	:	"	did , done , делать	"	
-            }	,				
-            {					
-            id	:	2021	,		
-            ru	:	"	drive	"	,
-            eng	:	"	drove , driven , водить	"	
-            }	,				
-            {					
-            id	:	2022	,		
-            ru	:	"	draw	"	,
-            eng	:	"	drew , drawn , рисовать	"	
-            }	,				
-            {					
-            id	:	2023	,		
-            ru	:	"	drink	"	,
-            eng	:	"	drank , drunk , пить	"	
-            }	,				
-            {					
-            id	:	2024	,		
-            ru	:	"	eat	"	,
-            eng	:	"	ate , eaten , кушать	"	
-            }	,				
-            {					
-            id	:	2025	,		
-            ru	:	"	fall	"	,
-            eng	:	"	fell , fallen , падать	"	
-            }	,				
-            {					
-            id	:	2026	,		
-            ru	:	"	feed	"	,
-            eng	:	"	fed , fed , кормить	"	
-            }	,				
-            {					
-            id	:	2027	,		
-            ru	:	"	feel	"	,
-            eng	:	"	felt , felt , чувствовать	"	
-            }	,				
-            {					
-            id	:	2028	,		
-            ru	:	"	fight	"	,
-            eng	:	"	fought , fought , сражаться	"	
-            }	,				
-            {					
-            id	:	2029	,		
-            ru	:	"	find	"	,
-            eng	:	"	found , found , находить	"	
-            }	,				
-            {					
-            id	:	2030	,		
-            ru	:	"	fly	"	,
-            eng	:	"	flew , flown , летать	"	
-            }	,				
-            {					
-            id	:	2031	,		
-            ru	:	"	forbid	"	,
-            eng	:	"	forbade , forbidden , запрещать	"	
-            }	,				
-            {					
-            id	:	2032	,		
-            ru	:	"	forget	"	,
-            eng	:	"	forgot , forgotten , забывать	"	
-            }	,				
-            {					
-            id	:	2033	,		
-            ru	:	"	forgive	"	,
-            eng	:	"	forgave , forgiven , прощать	"	
-            }	,				
-            {					
-            id	:	2034	,		
-            ru	:	"	freeze	"	,
-            eng	:	"	froze , frozen , замерзать	"	
-            }	,				
-            {					
-            id	:	2035	,		
-            ru	:	"	grow	"	,
-            eng	:	"	grew , grown , расти	"	
-            }	,				
-            {					
-            id	:	2036	,		
-            ru	:	"	get	"	,
-            eng	:	"	got , got , получать	"	
-            }	,				
-            {					
-            id	:	2037	,		
-            ru	:	"	give	"	,
-            eng	:	"	gave , given , давать	"	
-            }	,				
-            {					
-            id	:	2038	,		
-            ru	:	"	go	"	,
-            eng	:	"	went , gone , ходить	"	
-            }	,				
-            {					
-            id	:	2039	,		
-            ru	:	"	have	"	,
-            eng	:	"	had , had , иметь	"	
-            }	,				
-            {					
-            id	:	2040	,		
-            ru	:	"	hear	"	,
-            eng	:	"	heard , heard , слышать	"	
-            }	,				
-            {					
-            id	:	2041	,		
-            ru	:	"	hide	"	,
-            eng	:	"	hid , hidden , прятать	"	
-            }	,				
-            {					
-            id	:	2042	,		
-            ru	:	"	hit	"	,
-            eng	:	"	hit , hit , ударять	"	
-            }	,				
-            {					
-            id	:	2043	,		
-            ru	:	"	hurt	"	,
-            eng	:	"	hurt , hurt , причинять боль	"	
-            }	,				
-            {					
-            id	:	2044	,		
-            ru	:	"	hold	"	,
-            eng	:	"	held , held , держать	"	
-            }	,				
-            {					
-            id	:	2045	,		
-            ru	:	"	keep	"	,
-            eng	:	"	kept , kept , хранить	"	
-            }	,				
-            {					
-            id	:	2046	,		
-            ru	:	"	know	"	,
-            eng	:	"	knew , known , знать	"	
-            }	,				
-            {					
-            id	:	2047	,		
-            ru	:	"	learn	"	,
-            eng	:	"	learnt , learnt , изучать	"	
-            }	,				
-            {					
-            id	:	2048	,		
-            ru	:	"	leave	"	,
-            eng	:	"	left , left , покидать	"	
-            }	,				
-            {					
-            id	:	2049	,		
-            ru	:	"	lend	"	,
-            eng	:	"	lent , lent , давать в долг	"	
-            }	,				
-            {					
-            id	:	2050	,		
-            ru	:	"	let	"	,
-            eng	:	"	let , let , позволять	"	
-            }	,				
-            {					
-            id	:	2051	,		
-            ru	:	"	lose	"	,
-            eng	:	"	lost , lost , терять	"	
-            }	,				
-            {					
-            id	:	2052	,		
-            ru	:	"	lay	"	,
-            eng	:	"	laid , laid , укладывать	"	
-            }	,				
-            {					
-            id	:	2053	,		
-            ru	:	"	lie	"	,
-            eng	:	"	lay , lain , лежать	"	
-            }	,				
-            {					
-            id	:	2054	,		
-            ru	:	"	make	"	,
-            eng	:	"	made , made , делать, создавать	"	
-            }	,				
-            {					
-            id	:	2055	,		
-            ru	:	"	mean	"	,
-            eng	:	"	meant , meant , иметь ввиду	"	
-            }	,				
-            {					
-            id	:	2056	,		
-            ru	:	"	meet	"	,
-            eng	:	"	met , met , встречаться	"	
-            }	,				
-            {					
-            id	:	2057	,		
-            ru	:	"	pay	"	,
-            eng	:	"	paid , paid , платить	"	
-            }	,				
-            {					
-            id	:	2058	,		
-            ru	:	"	put	"	,
-            eng	:	"	put , put , класть	"	
-            }	,				
-            {					
-            id	:	2059	,		
-            ru	:	"	read	"	,
-            eng	:	"	read , read , читать	"	
-            }	,				
-            {					
-            id	:	2060	,		
-            ru	:	"	ride	"	,
-            eng	:	"	rode , ridden , ездить верхом	"	
-            }	,				
-            {					
-            id	:	2061	,		
-            ru	:	"	ring	"	,
-            eng	:	"	rang , rung , звенеть	"	
-            }	,				
-            {					
-            id	:	2062	,		
-            ru	:	"	run	"	,
-            eng	:	"	ran , run , бегать	"	
-            }	,				
-            {					
-            id	:	2063	,		
-            ru	:	"	rise	"	,
-            eng	:	"	rose , risen , подниматься	"	
-            }	,				
-            {					
-            id	:	2064	,		
-            ru	:	"	say	"	,
-            eng	:	"	said , said ,  сказать, произнести	"	
-            }	,				
-            {					
-            id	:	2065	,		
-            ru	:	"	see	"	,
-            eng	:	"	saw , seen , (у)видеть	"	
-            }	,				
-            {					
-            id	:	2066	,		
-            ru	:	"	sell	"	,
-            eng	:	"	sold , sold , продавать	"	
-            }	,				
-            {					
-            id	:	2067	,		
-            ru	:	"	send	"	,
-            eng	:	"	sent , sent , отправлять	"	
-            }	,				
-            {					
-            id	:	2068	,		
-            ru	:	"	shake	"	,
-            eng	:	"	shook , shaken , трясти	"	
-            }	,				
-            {					
-            id	:	2069	,		
-            ru	:	"	shoot	"	,
-            eng	:	"	shot , shot , стрелять	"	
-            }	,				
-            {					
-            id	:	2070	,		
-            ru	:	"	shut	"	,
-            eng	:	"	shut , shut , захлопывать	"	
-            }	,				
-            {					
-            id	:	2071	,		
-            ru	:	"	sing	"	,
-            eng	:	"	sang , sung , петь	"	
-            }	,				
-            {					
-            id	:	2072	,		
-            ru	:	"	sink	"	,
-            eng	:	"	sank , sunk , затонуть	"	
-            }	,				
-            {					
-            id	:	2073	,		
-            ru	:	"	sit	"	,
-            eng	:	"	sat , sat , сидеть	"	
-            }	,				
-            {					
-            id	:	2074	,		
-            ru	:	"	sleep	"	,
-            eng	:	"	slept , slept , спать	"	
-            }	,				
-            {					
-            id	:	2075	,		
-            ru	:	"	slide	"	,
-            eng	:	"	slid , slid , скользить	"	
-            }	,				
-            {					
-            id	:	2076	,		
-            ru	:	"	speak	"	,
-            eng	:	"	spoke , spoken , разговаривать	"	
-            }	,				
-            {					
-            id	:	2077	,		
-            ru	:	"	spend	"	,
-            eng	:	"	spent , spent , тратить	"	
-            }	,				
-            {					
-            id	:	2078	,		
-            ru	:	"	spit	"	,
-            eng	:	"	spat , spat , плеваться	"	
-            }	,				
-            {					
-            id	:	2079	,		
-            ru	:	"	stand	"	,
-            eng	:	"	stood , stood , встать, стоять	"	
-            }	,				
-            {					
-            id	:	2080	,		
-            ru	:	"	steal	"	,
-            eng	:	"	stole , stolen , воровать	"	
-            }	,				
-            {					
-            id	:	2081	,		
-            ru	:	"	stick	"	,
-            eng	:	"	stuck , stuck , приклеить, застрять 	"	
-            }	,				
-            {					
-            id	:	2082	,		
-            ru	:	"	stink	"	,
-            eng	:	"	stank , stunk , вонять	"	
-            }	,				
-            {					
-            id	:	2083	,		
-            ru	:	"	strike	"	,
-            eng	:	"	struck , struck , ударять	"	
-            }	,				
-            {					
-            id	:	2084	,		
-            ru	:	"	swear	"	,
-            eng	:	"	swore , sworn , клясться/материться 	"	
-            }	,				
-            {					
-            id	:	2085	,		
-            ru	:	"	sweep	"	,
-            eng	:	"	swept , swept , подметать	"	
-            }	,				
-            {					
-            id	:	2086	,		
-            ru	:	"	swim	"	,
-            eng	:	"	swam , swum , плавать	"	
-            }	,				
-            {					
-            id	:	2087	,		
-            ru	:	"	swing	"	,
-            eng	:	"	swung , swung , качаться	"	
-            }	,				
-            {					
-            id	:	2088	,		
-            ru	:	"	take	"	,
-            eng	:	"	took , taken , брать	"	
-            }	,				
-            {					
-            id	:	2089	,		
-            ru	:	"	teach	"	,
-            eng	:	"	taught , taught ,  обучать	"	
-            }	,				
-            {					
-            id	:	2090	,		
-            ru	:	"	tear	"	,
-            eng	:	"	tore , torn , рвать, вырывать	"	
-            }	,				
-            {					
-            id	:	2091	,		
-            ru	:	"	tell	"	,
-            eng	:	"	told , told , рассказывать	"	
-            }	,				
-            {					
-            id	:	2092	,		
-            ru	:	"	think	"	,
-            eng	:	"	thought , thought , думать	"	
-            }	,				
-            {					
-            id	:	2093	,		
-            ru	:	"	throw	"	,
-            eng	:	"	threw , thrown , бросать	"	
-            }	,				
-            {					
-            id	:	2094	,		
-            ru	:	"	understand	"	,
-            eng	:	"	understood , understood , понимать	"	
-            }	,				
-            {					
-            id	:	2095	,		
-            ru	:	"	wake up	"	,
-            eng	:	"	woke up , woken up ,  будить, просыпаться	"	
-            }	,				
-            {					
-            id	:	2096	,		
-            ru	:	"	wear	"	,
-            eng	:	"	wore , worn , носить одежду	"	
-            }	,				
-            {					
-            id	:	2097	,		
-            ru	:	"	write	"	,
-            eng	:	"	wrote , written , писать	"	
-            }	,				
-            {					
-            id	:	2098	,		
-            ru	:	"	weep	"	,
-            eng	:	"	wept , wept , хныкать	"	
-            }	,				
-            {					
-            id	:	2099	,		
-            ru	:	"	win	"	,
-            eng	:	"	won , won , выигрывать	"	
-            }	,				
-            {					
-            id	:	2100	,		
-            ru	:	"	misunderstand	"	,
-            eng	:	"	misunderstood , misunderstood , неправ. понять	"	
-            }	,				
-            {					
-            id	:	2101	,		
-            ru	:	"	misspell	"	,
-            eng	:	"	misspelt , misspelt , неправ. написать	"	
-            }	,				
-            {					
-            id	:	2102	,		
-            ru	:	"	mistake	"	,
-            eng	:	"	mistook , mistaken , ошибаться	"	
-            }	,				
-            {					
-            id	:	2103	,		
-            ru	:	"	mishear	"	,
-            eng	:	"	misheard , misheard , неправ. услышать	"	
-            }	,				
-            {					
-            id	:	2104	,		
-            ru	:	"	oversleep	"	,
-            eng	:	"	overslept , overslept , переспать	"	
-            }	,				
-            {					
-            id	:	2105	,		
-            ru	:	"	overeat	"	,
-            eng	:	"	overate , overeaten , переесть 	"	
-            }	,				
-            {					
-            id	:	2106	,		
-            ru	:	"	overpay	"	,
-            eng	:	"	overpaid , overpaid , переплатить	"	
-            }	,				
-            {					
-            id	:	2107	,		
-            ru	:	"	can	"	,
-            eng	:	"	could , могу - мог	"	
-            }	,				
-            {					
-            id	:	2108	,		
-            ru	:	"	shall	"	,
-            eng	:	"	should , следует	"	
-            }	,				
-            {					
-            id	:	2109	,		
-            ru	:	"	may	"	,
-            eng	:	"	might , можно / возможно	"	
-            }	,				
-            {					
-            id	:	2110	,		
-            ru	:	"	will	"	,
-            eng	:	"	would + V ,  в будущем / бы	"	
-            }	,				
+        {
+            id: 2001,
+            ru: "	broke , broken , ломать	",
+            eng: "	break	"
+        },
+        {
+            id: 2002,
+            ru: "	beat , beaten , бить, побеждать	",
+            eng: "	beat	"
+        },
+        {
+            id: 2003,
+            ru: "	became , become , становиться	",
+            eng: "	become	"
+        },
+        {
+            id: 2004,
+            ru: "	began , begun , начинать	",
+            eng: "	begin	"
+        },
+        {
+            id: 2005,
+            ru: "	blew , blown , дуть	",
+            eng: "	blow	"
+        },
+        {
+            id: 2006,
+            ru: "	built , built , строить	",
+            eng: "	build	"
+        },
+        {
+            id: 2007,
+            ru: "	burnt , burnt , сжигать, гореть	",
+            eng: "	burn	"
+        },
+        {
+            id: 2008,
+            ru: "	bought , bought , покупать	",
+            eng: "	buy	"
+        },
+        {
+            id: 2009,
+            ru: "	brought , brought , приносить	",
+            eng: "	bring	"
+        },
+        {
+            id: 2010,
+            ru: "	was/were , been , быть	",
+            eng: "	be	"
+        },
+        {
+            id: 2011,
+            ru: "	bit , bit , кусать	",
+            eng: "	bite	"
+        },
+        {
+            id: 2012,
+            ru: "	came , come , приходить	",
+            eng: "	come	"
+        },
+        {
+            id: 2013,
+            ru: "	chose , chosen , выбирать	",
+            eng: "	choose	"
+        },
+        {
+            id: 2014,
+            ru: "	caught , caught , ловить	",
+            eng: "	catch	"
+        },
+        {
+            id: 2015,
+            ru: "	crept , crept , ползать	",
+            eng: "	creep	"
+        },
+        {
+            id: 2016,
+            ru: "	cost , cost , стоить	",
+            eng: "	cost	"
+        },
+        {
+            id: 2017,
+            ru: "	cut , cut , резать	",
+            eng: "	cut	"
+        },
+        {
+            id: 2018,
+            ru: "	dealt , dealt , иметь дела	",
+            eng: "	deal	"
+        },
+        {
+            id: 2019,
+            ru: "	dug , dug , копать	",
+            eng: "	dig	"
+        },
+        {
+            id: 2020,
+            ru: "	did , done , делать	",
+            eng: "	do	"
+        },
+        {
+            id: 2021,
+            ru: "	drove , driven , водить	",
+            eng: "	drive	"
+        },
+        {
+            id: 2022,
+            ru: "	drew , drawn , рисовать	",
+            eng: "	draw	"
+        },
+        {
+            id: 2023,
+            ru: "	drank , drunk , пить	",
+            eng: "	drink	"
+        },
+        {
+            id: 2024,
+            ru: "	ate , eaten , кушать	",
+            eng: "	eat	"
+        },
+        {
+            id: 2025,
+            ru: "	fell , fallen , падать	",
+            eng: "	fall	"
+        },
+        {
+            id: 2026,
+            ru: "	fed , fed , кормить	",
+            eng: "	feed	"
+        },
+        {
+            id: 2027,
+            ru: "	felt , felt , чувствовать	",
+            eng: "	feel	"
+        },
+        {
+            id: 2028,
+            ru: "	fought , fought , сражаться	",
+            eng: "	fight	"
+        },
+        {
+            id: 2029,
+            ru: "	found , found , находить	",
+            eng: "	find	"
+        },
+        {
+            id: 2030,
+            ru: "	flew , flown , летать	",
+            eng: "	fly	"
+        },
+        {
+            id: 2031,
+            ru: "	forbade , forbidden , запрещать	",
+            eng: "	forbid	"
+        },
+        {
+            id: 2032,
+            ru: "	forgot , forgotten , забывать	",
+            eng: "	forget	"
+        },
+        {
+            id: 2033,
+            ru: "	forgave , forgiven , прощать	",
+            eng: "	forgive	"
+        },
+        {
+            id: 2034,
+            ru: "	froze , frozen , замерзать	",
+            eng: "	freeze	"
+        },
+        {
+            id: 2035,
+            ru: "	grew , grown , расти	",
+            eng: "	grow	"
+        },
+        {
+            id: 2036,
+            ru: "	got , got , получать	",
+            eng: "	get	"
+        },
+        {
+            id: 2037,
+            ru: "	gave , given , давать	",
+            eng: "	give	"
+        },
+        {
+            id: 2038,
+            ru: "	went , gone , ходить	",
+            eng: "	go	"
+        },
+        {
+            id: 2039,
+            ru: "	had , had , иметь	",
+            eng: "	have	"
+        },
+        {
+            id: 2040,
+            ru: "	heard , heard , слышать	",
+            eng: "	hear	"
+        },
+        {
+            id: 2041,
+            ru: "	hid , hidden , прятать	",
+            eng: "	hide	"
+        },
+        {
+            id: 2042,
+            ru: "	hit , hit , ударять	",
+            eng: "	hit	"
+        },
+        {
+            id: 2043,
+            ru: "	hurt , hurt , причинять боль	",
+            eng: "	hurt	"
+        },
+        {
+            id: 2044,
+            ru: "	held , held , держать	",
+            eng: "	hold	"
+        },
+        {
+            id: 2045,
+            ru: "	kept , kept , хранить	",
+            eng: "	keep	"
+        },
+        {
+            id: 2046,
+            ru: "	knew , known , знать	",
+            eng: "	know	"
+        },
+        {
+            id: 2047,
+            ru: "	learnt , learnt , изучать	",
+            eng: "	learn	"
+        },
+        {
+            id: 2048,
+            ru: "	left , left , покидать	",
+            eng: "	leave	"
+        },
+        {
+            id: 2049,
+            ru: "	lent , lent , давать в долг	",
+            eng: "	lend	"
+        },
+        {
+            id: 2050,
+            ru: "	let , let , позволять	",
+            eng: "	let	"
+        },
+        {
+            id: 2051,
+            ru: "	lost , lost , терять	",
+            eng: "	lose	"
+        },
+        {
+            id: 2052,
+            ru: "	laid , laid , укладывать	",
+            eng: "	lay	"
+        },
+        {
+            id: 2053,
+            ru: "	lay , lain , лежать	",
+            eng: "	lie	"
+        },
+        {
+            id: 2054,
+            ru: "	made , made , делать, создавать	",
+            eng: "	make	"
+        },
+        {
+            id: 2055,
+            ru: "	meant , meant , иметь ввиду	",
+            eng: "	mean	"
+        },
+        {
+            id: 2056,
+            ru: "	met , met , встречаться	",
+            eng: "	meet	"
+        },
+        {
+            id: 2057,
+            ru: "	paid , paid , платить	",
+            eng: "	pay	"
+        },
+        {
+            id: 2058,
+            ru: "	put , put , класть	",
+            eng: "	put	"
+        },
+        {
+            id: 2059,
+            ru: "	read , read , читать	",
+            eng: "	read	"
+        },
+        {
+            id: 2060,
+            ru: "	rode , ridden , ездить верхом	",
+            eng: "	ride	"
+        },
+        {
+            id: 2061,
+            ru: "	rang , rung , звенеть	",
+            eng: "	ring	"
+        },
+        {
+            id: 2062,
+            ru: "	ran , run , бегать	",
+            eng: "	run	"
+        },
+        {
+            id: 2063,
+            ru: "	rose , risen , подниматься	",
+            eng: "	rise	"
+        },
+        {
+            id: 2064,
+            ru: "	said , said ,  сказать, произнести	",
+            eng: "	say	"
+        },
+        {
+            id: 2065,
+            ru: "	saw , seen , (у)видеть	",
+            eng: "	see	"
+        },
+        {
+            id: 2066,
+            ru: "	sold , sold , продавать	",
+            eng: "	sell	"
+        },
+        {
+            id: 2067,
+            ru: "	sent , sent , отправлять	",
+            eng: "	send	"
+        },
+        {
+            id: 2068,
+            ru: "	shook , shaken , трясти	",
+            eng: "	shake	"
+        },
+        {
+            id: 2069,
+            ru: "	shot , shot , стрелять	",
+            eng: "	shoot	"
+        },
+        {
+            id: 2070,
+            ru: "	shut , shut , захлопывать	",
+            eng: "	shut	"
+        },
+        {
+            id: 2071,
+            ru: "	sang , sung , петь	",
+            eng: "	sing	"
+        },
+        {
+            id: 2072,
+            ru: "	sank , sunk , затонуть	",
+            eng: "	sink	"
+        },
+        {
+            id: 2073,
+            ru: "	sat , sat , сидеть	",
+            eng: "	sit	"
+        },
+        {
+            id: 2074,
+            ru: "	slept , slept , спать	",
+            eng: "	sleep	"
+        },
+        {
+            id: 2075,
+            ru: "	slid , slid , скользить	",
+            eng: "	slide	"
+        },
+        {
+            id: 2076,
+            ru: "	spoke , spoken , разговаривать	",
+            eng: "	speak	"
+        },
+        {
+            id: 2077,
+            ru: "	spent , spent , тратить	",
+            eng: "	spend	"
+        },
+        {
+            id: 2078,
+            ru: "	spat , spat , плеваться	",
+            eng: "	spit	"
+        },
+        {
+            id: 2079,
+            ru: "	stood , stood , встать, стоять	",
+            eng: "	stand	"
+        },
+        {
+            id: 2080,
+            ru: "	stole , stolen , воровать	",
+            eng: "	steal	"
+        },
+        {
+            id: 2081,
+            ru: "	stuck , stuck , приклеить, застрять 	",
+            eng: "	stick	"
+        },
+        {
+            id: 2082,
+            ru: "	stank , stunk , вонять	",
+            eng: "	stink	"
+        },
+        {
+            id: 2083,
+            ru: "	struck , struck , ударять	",
+            eng: "	strike	"
+        },
+        {
+            id: 2084,
+            ru: "	swore , sworn , клясться/материться 	",
+            eng: "	swear	"
+        },
+        {
+            id: 2085,
+            ru: "	swept , swept , подметать	",
+            eng: "	sweep	"
+        },
+        {
+            id: 2086,
+            ru: "	swam , swum , плавать	",
+            eng: "	swim	"
+        },
+        {
+            id: 2087,
+            ru: "	swung , swung , качаться	",
+            eng: "	swing	"
+        },
+        {
+            id: 2088,
+            ru: "	took , taken , брать	",
+            eng: "	take	"
+        },
+        {
+            id: 2089,
+            ru: "	taught , taught ,  обучать	",
+            eng: "	teach	"
+        },
+        {
+            id: 2090,
+            ru: "	tore , torn , рвать, вырывать	",
+            eng: "	tear	"
+        },
+        {
+            id: 2091,
+            ru: "	told , told , рассказывать	",
+            eng: "	tell	"
+        },
+        {
+            id: 2092,
+            ru: "	thought , thought , думать	",
+            eng: "	think	"
+        },
+        {
+            id: 2093,
+            ru: "	threw , thrown , бросать	",
+            eng: "	throw	"
+        },
+        {
+            id: 2094,
+            ru: "	understood , understood , понимать	",
+            eng: "	understand	"
+        },
+        {
+            id: 2095,
+            ru: "	woke up , woken up ,  будить, просыпаться	",
+            eng: "	wake up	"
+        },
+        {
+            id: 2096,
+            ru: "	wore , worn , носить одежду	",
+            eng: "	wear	"
+        },
+        {
+            id: 2097,
+            ru: "	wrote , written , писать	",
+            eng: "	write	"
+        },
+        {
+            id: 2098,
+            ru: "	wept , wept , хныкать	",
+            eng: "	weep	"
+        },
+        {
+            id: 2099,
+            ru: "	won , won , выигрывать	",
+            eng: "	win	"
+        },
+        {
+            id: 2100,
+            ru: "	misunderstood , misunderstood , неправ. понять	",
+            eng: "	misunderstand	"
+        },
+        {
+            id: 2101,
+            ru: "	misspelt , misspelt , неправ. написать	",
+            eng: "	misspell	"
+        },
+        {
+            id: 2102,
+            ru: "	mistook , mistaken , ошибаться	",
+            eng: "	mistake	"
+        },
+        {
+            id: 2103,
+            ru: "	misheard , misheard , неправ. услышать	",
+            eng: "	mishear	"
+        },
+        {
+            id: 2104,
+            ru: "	overslept , overslept , переспать	",
+            eng: "	oversleep	"
+        },
+        {
+            id: 2105,
+            ru: "	overate , overeaten , переесть 	",
+            eng: "	overeat	"
+        },
+        {
+            id: 2106,
+            ru: "	overpaid , overpaid , переплатить	",
+            eng: "	overpay	"
+        },
+        {
+            id: 2107,
+            ru: "	could , могу - мог	",
+            eng: "	can	"
+        },
+        {
+            id: 2108,
+            ru: "	should , следует	",
+            eng: "	shall	"
+        },
+        {
+            id: 2109,
+            ru: "	might , можно / возможно	",
+            eng: "	may	"
+        },
+        {
+            id: 2110,
+            ru: "	would + V ,  в будущем / бы	",
+            eng: "	will	"
+        },
     ],
 }
 export default allCards
