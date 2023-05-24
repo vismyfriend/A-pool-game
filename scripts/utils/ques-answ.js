@@ -855,7 +855,7 @@ const allCards = {
             eng: "	will	"
         },
     ],
-    IrrV_a3: [
+    Naughty: [
         {
             id: 3001,
             ru: "	broke , broken	",

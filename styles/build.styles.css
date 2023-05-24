@@ -280,7 +280,9 @@
     display: flex;
 }
 
-.hide {}
+.hide {
+    
+}
 
 .pool {
     background-image: url(../images/pull\ table.png);
