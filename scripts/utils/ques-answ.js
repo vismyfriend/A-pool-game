@@ -2305,6 +2305,254 @@ const allCards = {
             eng: "	know	"
         },
     ],
+    Naughty_Verbs_challenge: [
+
+        {
+            id: 3001,
+            ru: "	broke , broken , ломать	",
+            eng: "	break	"
+        },
+        {
+            id: 3002,
+            ru: "	beat , beaten , бить, побеждать	",
+            eng: "	beat	"
+        },
+        {
+            id: 3003,
+            ru: "	became , become , становиться	",
+            eng: "	become	"
+        },
+        {
+            id: 3004,
+            ru: "	began , begun , начинать	",
+            eng: "	begin	"
+        },
+        {
+            id: 3005,
+            ru: "	blew , blown , дуть	",
+            eng: "	blow	"
+        },
+        {
+            id: 3006,
+            ru: "	built , built , строить	",
+            eng: "	build	"
+        },
+        {
+            id: 3007,
+            ru: "	burnt , burnt , сжигать, гореть	",
+            eng: "	burn	"
+        },
+        {
+            id: 3008,
+            ru: "	bought , bought , покупать	",
+            eng: "	buy	"
+        },
+        {
+            id: 3009,
+            ru: "	brought , brought , приносить	",
+            eng: "	bring	"
+        },
+        {
+            id: 3010,
+            ru: "	was/were , been , быть	",
+            eng: "	be	"
+        },
+        {
+            id: 3011,
+            ru: "	bit , bit , кусать	",
+            eng: "	bite	"
+        },
+        {
+            id: 3012,
+            ru: "	came , come , приходить	",
+            eng: "	come	"
+        },
+        {
+            id: 3013,
+            ru: "	chose , chosen , выбирать	",
+            eng: "	choose	"
+        },
+        {
+            id: 3014,
+            ru: "	caught , caught , ловить	",
+            eng: "	catch	"
+        },
+        {
+            id: 3015,
+            ru: "	crept , crept , ползать	",
+            eng: "	creep	"
+        },
+        {
+            id: 3016,
+            ru: "	cost , cost , стоить	",
+            eng: "	cost	"
+        },
+        {
+            id: 3017,
+            ru: "	cut , cut , резать	",
+            eng: "	cut	"
+        },
+        {
+            id: 3018,
+            ru: "	dealt , dealt , иметь дела	",
+            eng: "	deal	"
+        },
+        {
+            id: 3019,
+            ru: "	dug , dug , копать	",
+            eng: "	dig	"
+        },
+        {
+            id: 3020,
+            ru: "	did , done , делать	",
+            eng: "	do	"
+        },
+        {
+            id: 3021,
+            ru: "	drove , driven , водить	",
+            eng: "	drive	"
+        },
+        {
+            id: 3022,
+            ru: "	drew , drawn , рисовать	",
+            eng: "	draw	"
+        },
+        {
+            id: 3023,
+            ru: "	drank , drunk , пить	",
+            eng: "	drink	"
+        },
+        {
+            id: 3024,
+            ru: "	ate , eaten , кушать	",
+            eng: "	eat	"
+        },
+        {
+            id: 3025,
+            ru: "	fell , fallen , падать	",
+            eng: "	fall	"
+        },
+        {
+            id: 3026,
+            ru: "	fed , fed , кормить	",
+            eng: "	feed	"
+        },
+        {
+            id: 3027,
+            ru: "	felt , felt , чувствовать	",
+            eng: "	feel	"
+        },
+        {
+            id: 3028,
+            ru: "	fought , fought , сражаться	",
+            eng: "	fight	"
+        },
+        {
+            id: 3029,
+            ru: "	found , found , находить	",
+            eng: "	find	"
+        },
+        {
+            id: 3030,
+            ru: "	flew , flown , летать	",
+            eng: "	fly	"
+        },
+        {
+            id: 3031,
+            ru: "	forbade , forbidden , запрещать	",
+            eng: "	forbid	"
+        },
+        {
+            id: 3032,
+            ru: "	forgot , forgotten , забывать	",
+            eng: "	forget	"
+        },
+        {
+            id: 3033,
+            ru: "	forgave , forgiven , прощать	",
+            eng: "	forgive	"
+        },
+        {
+            id: 3034,
+            ru: "	froze , frozen , замерзать	",
+            eng: "	freeze	"
+        },
+        {
+            id: 3035,
+            ru: "	grew , grown , расти	",
+            eng: "	grow	"
+        },
+        {
+            id: 3036,
+            ru: "	got , got , получать	",
+            eng: "	get	"
+        },
+        {
+            id: 3037,
+            ru: "	gave , given , давать	",
+            eng: "	give	"
+        },
+        {
+            id: 3038,
+            ru: "	went , gone , ходить	",
+            eng: "	go	"
+        },
+        {
+            id: 3039,
+            ru: "	had , had , иметь	",
+            eng: "	have	"
+        },
+        {
+            id: 3040,
+            ru: "	heard , heard , слышать	",
+            eng: "	hear	"
+        },
+        {
+            id: 3041,
+            ru: "	hid , hidden , прятать	",
+            eng: "	hide	"
+        },
+        {
+            id: 3042,
+            ru: "	hit , hit , ударять	",
+            eng: "	hit	"
+        },
+        {
+            id: 3043,
+            ru: "	hurt , hurt , причинять боль	",
+            eng: "	hurt	"
+        },
+        {
+            id: 3044,
+            ru: "	held , held , держать	",
+            eng: "	hold	"
+        },
+        {
+            id: 3045,
+            ru: "	kept , kept , хранить	",
+            eng: "	keep	"
+        },
+        {
+            id: 3046,
+            ru: "	knew , known , знать	",
+            eng: "	know	"
+        },
+        {
+            id: 3047,
+            ru: "	learnt , learnt , изучать	",
+            eng: "	learn	"
+        },
+        {
+            id: 3048,
+            ru: "	left , left , покидать	",
+            eng: "	leave	"
+        },
+        {
+            id: 3049,
+            ru: "	lent , lent , давать в долг	",
+            eng: "	lend	"
+        },
+    ],
     Irregular_verbs_ALL: [
         {
             id: 9001,
