@@ -2305,8 +2305,7 @@ const allCards = {
             eng: "	know	"
         },
     ],
-    Naughty_Verbs_challenge: [
-
+    Naughty_verbs_challenge: [
         {
             id: 3001,
             ru: "	broke , broken , ломать	",
