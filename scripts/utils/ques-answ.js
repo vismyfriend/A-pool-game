@@ -303,6 +303,278 @@ const allCards = {
             eng: "	seven	"
         },
     ],
+    bodypartsa2: [
+        {
+            id: 1,
+            ru: "	круглая голова	",
+            eng: "	a round head	"
+        },
+        {
+            id: 2,
+            ru: "	нэкрасивая шея	",
+            eng: "	an ugly neck	"
+        },
+        {
+            id: 3,
+            ru: "	брови	",
+            eng: "	eyebrows	"
+        },
+        {
+            id: 4,
+            ru: "	синие глаза	",
+            eng: "	blue eyes	"
+        },
+        {
+            id: 5,
+            ru: "	длинные светлые волосы	",
+            eng: "	long blond hair	"
+        },
+        {
+            id: 6,
+            ru: "	большие уши	",
+            eng: "	big ears	"
+        },
+        {
+            id: 7,
+            ru: "	один глаз	",
+            eng: "	an eye	"
+        },
+        {
+            id: 8,
+            ru: "	сэкси моно бровь	",
+            eng: "	a sexy mono eyebrow	"
+        },
+        {
+            id: 9,
+            ru: "	острый нос	",
+            eng: "	a pointed nose	"
+        },
+        {
+            id: 10,
+            ru: "	губы липкие	",
+            eng: "	lips are sticky	"
+        },
+        {
+            id: 11,
+            ru: "	зубыыыыы	",
+            eng: "	teeth	"
+        },
+        {
+            id: 12,
+            ru: "	зууууб	",
+            eng: "	a tooth	"
+        },
+        {
+            id: 13,
+            ru: "	щёки	",
+            eng: "	cheeks	"
+        },
+        {
+            id: 14,
+            ru: "	мой двойной подбородок	",
+            eng: "	my double chin	"
+        },
+        {
+            id: 15,
+            ru: "	грудь (грудная клетка)	",
+            eng: "	a chest	"
+        },
+        {
+            id: 16,
+            ru: "	её левая грудь больше 	",
+            eng: "	her left breast is bigger	"
+        },
+        {
+            id: 17,
+            ru: "	волосатая спина	",
+            eng: "	a hairy back	"
+        },
+        {
+            id: 18,
+            ru: "	широкие плечи	",
+            eng: "	wide shoulders	"
+        },
+        {
+            id: 19,
+            ru: "	мускулистые руки	",
+            eng: "	muscular arms	"
+        },
+        {
+            id: 20,
+            ru: "	сделано кистями рук	",
+            eng: "	handmade	"
+        },
+        {
+            id: 21,
+            ru: "	короткие пальцы	",
+            eng: "	short fingers	"
+        },
+        {
+            id: 22,
+            ru: "	пальцы на ногах - не игрушки	",
+            eng: "	toes are not toys	"
+        },
+        {
+            id: 23,
+            ru: "	локоть	",
+            eng: "	an elbow	"
+        },
+        {
+            id: 24,
+            ru: "	лоб	",
+            eng: "	a forehead	"
+        },
+        {
+            id: 25,
+            ru: "	чёлка	",
+            eng: "	a fringe	"
+        },
+        {
+            id: 26,
+            ru: "	упругий животик	",
+            eng: "	a firm tummy	"
+        },
+        {
+            id: 27,
+            ru: "	пивное пузико	",
+            eng: "	a beer belly	"
+        },
+        {
+            id: 28,
+            ru: "	татуировки на коленках	",
+            eng: "	tattoos on the knees	"
+        },
+        {
+            id: 29,
+            ru: "	ступни	",
+            eng: "	feet	"
+        },
+        {
+            id: 30,
+            ru: "	ступня	",
+            eng: "	a foot	"
+        },
+        {
+            id: 31,
+            ru: "	пятка	",
+            eng: "	a heel	"
+        },
+        {
+            id: 32,
+            ru: "	высокие каблуки	",
+            eng: "	high heels	"
+        },
+        {
+            id: 33,
+            ru: "	кнопка на пузе (пупок)	",
+            eng: "	a belly button	"
+        },
+        {
+            id: 34,
+            ru: "	задница, жопка	",
+            eng: "	an ass, a butt	"
+        },
+        {
+            id: 35,
+            ru: "	кривые ноги	",
+            eng: "	crooked legs	"
+        },
+        {
+            id: 36,
+            ru: "	шрам на любимой попе	",
+            eng: "	a scar on my lovely bottom	"
+        },
+        {
+            id: 37,
+            ru: "	пиво /бир/ на бороде /биед/	",
+            eng: "	beer is on the beard	"
+        },
+        {
+            id: 38,
+            ru: "	птица /бёд/ в бороде /биед/	",
+            eng: "	a bird is in the beard	"
+        },
+        {
+            id: 39,
+            ru: "	родинка	",
+            eng: "	a mole	"
+        },
+        {
+            id: 40,
+            ru: "	родимое пятно	",
+            eng: "	a birthmark	"
+        },
+        {
+            id: 41,
+            ru: "	ямочка на подбородке	",
+            eng: "	a dimple on the chin	"
+        },
+        {
+            id: 42,
+            ru: "	милые морщинки	",
+            eng: "	cute wrinkles	"
+        },
+        {
+            id: 43,
+            ru: "	у Фрекен Бок есть веснушки	",
+            eng: "	Фрекен Бок has freckles	"
+        },
+        {
+            id: 44,
+            ru: "	кисти рук	",
+            eng: "	hands	"
+        },
+        {
+            id: 45,
+            ru: "	у неё усы!	",
+            eng: "	she has a moustache	"
+        },
+        {
+            id: 46,
+            ru: "	Когда-то я была тощей	",
+            eng: "	I used to be skinny	"
+        },
+        {
+            id: 47,
+            ru: "	Когда-то у меня были волосы	",
+            eng: "	I used to have hair	"
+        },
+        {
+            id: 48,
+            ru: "	Мой учитель лысый	",
+            eng: "	my teacher is bald	"
+        },
+        {
+            id: 49,
+            ru: "	Мышь во рту!	",
+            eng: "	a mouse is in the mouth	"
+        },
+        {
+            id: 50,
+            ru: "	Мои уши проколоты	",
+            eng: "	My ears are pierced	"
+        },
+        {
+            id: 51,
+            ru: "	одно ухо	",
+            eng: "	an ear	"
+        },
+        {
+            id: 52,
+            ru: "	Его волосы кудрявые	",
+            eng: "	His hair is curly	"
+        },
+        {
+            id: 53,
+            ru: "	У меня прямые волосы	",
+            eng: "	I have straight hair	"
+        },
+        {
+            id: 54,
+            ru: "	Её волосы волнистые	",
+            eng: "	Her hair is wavy	"
+        },
+    ],
     Irregular_verbs_1_form: [
         {
             id: 1001,
