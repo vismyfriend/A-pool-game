@@ -548,9 +548,49 @@
     .picture-right.shown {
         left: 167px;
     }
-    .homer {
+
+}
+@media screen and (max-height: 330px) {
+    .card {
+        margin-top: 5px;
+        max-height: 20px;
+        
+    }
+    .pool__container {
+        padding: 45px 33px;
+        gap: 0 5px;
+        margin: 1px;
+        width: 500px;
+        -ms-grid-columns: 1fr 10px 1fr;
+
+    grid-auto-rows: 42px;
+   
+    }
+    .pool {
+        
+        
+    }
+    .pool.open {
+        
+        background-image: none
+    }
+    .pool__buttons {
+        display: none;
+        
+    }
+    .picture-left, .picture-right {
         display: none;
     }
+    .picture-left.shown {
+        display: none;
+    }
+    .picture-left.shown.again {
+        display: none;
+    }
+    .picture-right.shown {
+        display: none;
+    }
+
 }
 @media screen and (min-width: 1000px) {
     .pool {
