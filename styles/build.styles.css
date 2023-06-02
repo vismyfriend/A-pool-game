@@ -556,7 +556,7 @@
     }
 
 }
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 415px) {
     .card {
         margin-top: 5px;
         max-height: 20px;
