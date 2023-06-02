@@ -502,6 +502,56 @@
         width: 420px;
     }
 }
+@media screen and (max-height: 640px) {
+    .card {
+        margin-top: 5px;
+        max-height: 50px;
+    }
+    .pool__container {
+        padding: 5px 43px;
+        gap: 0 5px;
+        margin: 1px;
+        
+    }
+    .pool {
+        width: 300px ;
+        height: 550px;
+        right: auto;
+        bottom: auto;
+        left: 15px;
+        top: 10px;
+        
+    }
+    .pool__buttons {
+        bottom: auto;
+        top: 500px;
+        right: auto;
+        width: 300px;
+        height: 200px;
+        left: 15px;
+        padding: 0;
+        
+    }
+    .picture-left, .picture-right {
+        width: 108px ;
+        right: auto;
+        left: -100%;
+        height: 478px;
+        top: 20px;
+    }
+    .picture-left.shown {
+        left: 56px;
+    }
+    .picture-left.shown.again {
+        left: 167px;
+    }
+    .picture-right.shown {
+        left: 167px;
+    }
+    .homer {
+        display: none;
+    }
+}
 @media screen and (min-width: 1000px) {
     .pool {
         left: 20%;
