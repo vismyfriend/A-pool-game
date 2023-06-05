@@ -306,23 +306,23 @@ const allCards = {
     bodypartsa2: [
         {
             id: 1,
-            ru: "	круглая голова	",
-            eng: "	a round head	"
+            ru: "	моя голова круглая	",
+            eng: "	my head is round	"
         },
         {
             id: 2,
-            ru: "	нэкрасивая шея	",
-            eng: "	an ugly neck	"
+            ru: "	её шея длинная	",
+            eng: "	her neck is long	"
         },
         {
             id: 3,
-            ru: "	брови	",
-            eng: "	eyebrows	"
+            ru: "	густые брови	",
+            eng: "	thick eyebrows	"
         },
         {
             id: 4,
-            ru: "	синие глаза	",
-            eng: "	blue eyes	"
+            ru: "	за синими глазами	",
+            eng: "	behind blue eyes	"
         },
         {
             id: 5,
@@ -331,53 +331,53 @@ const allCards = {
         },
         {
             id: 6,
-            ru: "	большие уши	",
-            eng: "	big ears	"
+            ru: "Мои уши проколоты",
+            eng: "	My ears are pierced"
         },
         {
             id: 7,
-            ru: "	один глаз	",
-            eng: "	an eye	"
+            ru: "	око за око (глаз за глаз)	",
+            eng: "	an eye for an eye	"
         },
         {
             id: 8,
-            ru: "	сэкси моно бровь	",
-            eng: "	a sexy mono eyebrow	"
+            ru: "	У него сэкси моно бровь	",
+            eng: "	He has a sexy mono eyebrow	"
         },
         {
             id: 9,
-            ru: "	острый нос	",
-            eng: "	a pointed nose	"
+            ru: "	Его нос острый	",
+            eng: "	His nose is pointed	"
         },
         {
             id: 10,
-            ru: "	губы липкие	",
-            eng: "	lips are sticky	"
+            ru: "	Мои губы липкие	",
+            eng: "	My lips are sticky	"
         },
         {
             id: 11,
-            ru: "	зубыыыыы	",
-            eng: "	teeth	"
+            ru: "	Нет зубов нет проблем	",
+            eng: "	No teeth no problems	"
         },
         {
             id: 12,
-            ru: "	зууууб	",
-            eng: "	a tooth	"
+            ru: "	Это один зуб	",
+            eng: "	It is a tooth	"
         },
         {
             id: 13,
-            ru: "	щёки	",
-            eng: "	cheeks	"
+            ru: "	У них жирные щёки	",
+            eng: "	They have fat cheeks	"
         },
         {
             id: 14,
-            ru: "	мой двойной подбородок	",
-            eng: "	my double chin	"
+            ru: "	мой двойной подбородок мускулистый	",
+            eng: "	my double chin is muscular	"
         },
         {
             id: 15,
-            ru: "	грудь (грудная клетка)	",
-            eng: "	a chest	"
+            ru: "	Его грудь не волосатая",
+            eng: "	His chest is not hairy	"
         },
         {
             id: 16,
@@ -386,28 +386,28 @@ const allCards = {
         },
         {
             id: 17,
-            ru: "	волосатая спина	",
-            eng: "	a hairy back	"
+            ru: "	волосатая спина это новая мода	",
+            eng: "	a hairy back is a new fashion	"
         },
         {
             id: 18,
-            ru: "	широкие плечи	",
-            eng: "	wide shoulders	"
+            ru: "	широкие плечи привлекательны	",
+            eng: "	wide shoulders are attractive	"
         },
         {
             id: 19,
-            ru: "	мускулистые руки	",
-            eng: "	muscular arms	"
+            ru: "	У него мускулистые руки?	",
+            eng: "	Does he have muscular arms?	"
         },
         {
             id: 20,
-            ru: "	сделано кистями рук	",
-            eng: "	handmade	"
+            ru: "	Это сделано руками?	",
+            eng: "	Is it handmade?	"
         },
         {
             id: 21,
-            ru: "	короткие пальцы	",
-            eng: "	short fingers	"
+            ru: "	У нас короткие пальцы	",
+            eng: "	We have short fingers	"
         },
         {
             id: 22,
@@ -416,48 +416,48 @@ const allCards = {
         },
         {
             id: 23,
-            ru: "	локоть	",
-            eng: "	an elbow	"
+            ru: "	Никто не может лизнуть локоть	",
+            eng: "	nobody can lick an elbow	"
         },
         {
             id: 24,
-            ru: "	лоб	",
-            eng: "	a forehead	"
+            ru: "	У него большой лоб	",
+            eng: "	He has a big forehead	"
         },
         {
             id: 25,
-            ru: "	чёлка	",
-            eng: "	a fringe	"
+            ru: "	чёлка - это волосы на лбу	",
+            eng: "	a fringe is hair on the forehead	"
         },
         {
             id: 26,
-            ru: "	упругий животик	",
-            eng: "	a firm tummy	"
+            ru: "	У неё упругий животик	",
+            eng: "	She has a firm tummy	"
         },
         {
             id: 27,
-            ru: "	пивное пузико	",
-            eng: "	a beer belly	"
+            ru: "	У него пивное пузико	",
+            eng: "	He has a beer belly	"
         },
         {
             id: 28,
-            ru: "	татуировки на коленках	",
-            eng: "	tattoos on the knees	"
+            ru: "	татуировки на коленках это плохо	",
+            eng: "	tattoos on the knees are bad	"
         },
         {
             id: 29,
-            ru: "	ступни	",
-            eng: "	feet	"
+            ru: "	Шевели своими ступнями",
+            eng: "	Move your feet	"
         },
         {
             id: 30,
-            ru: "	ступня	",
-            eng: "	a foot	"
+            ru: "	ступня - это не еда	",
+            eng: "	a foot is not food	"
         },
         {
             id: 31,
-            ru: "	пятка	",
-            eng: "	a heel	"
+            ru: "	пятка - опасное место	",
+            eng: "	a heel is a dangerous place	"
         },
         {
             id: 32,
@@ -471,13 +471,13 @@ const allCards = {
         },
         {
             id: 34,
-            ru: "	задница, жопка	",
-            eng: "	an ass, a butt	"
+            ru: "	Я тебе надеру зад",
+            eng: "	I will kick your butt (ass)	"
         },
         {
             id: 35,
-            ru: "	кривые ноги	",
-            eng: "	crooked legs	"
+            ru: "	кривые ноги	это круто",
+            eng: "	crooked legs are cool	"
         },
         {
             id: 36,
@@ -496,13 +496,13 @@ const allCards = {
         },
         {
             id: 39,
-            ru: "	родинка	",
-            eng: "	a mole	"
+            ru: "	родинка на моей щеке	",
+            eng: "	a mole on my chin	"
         },
         {
             id: 40,
-            ru: "	родимое пятно	",
-            eng: "	a birthmark	"
+            ru: "	У Винсента родимое пятно	",
+            eng: "	V has a birthmark	"
         },
         {
             id: 41,
@@ -557,7 +557,7 @@ const allCards = {
         {
             id: 51,
             ru: "	одно ухо	",
-            eng: "	an ear	"
+            eng: "	an ear	/Иа/"
         },
         {
             id: 52,
@@ -574,6 +574,294 @@ const allCards = {
             ru: "	Её волосы волнистые	",
             eng: "	Her hair is wavy	"
         },
+    ],
+    bodypartsa1: [
+        {
+            id: 1,
+            ru: "	голова	",
+            eng: "	a head	"
+        },
+        {
+            id: 2,
+            ru: "	шея	",
+            eng: "	a neck	"
+        },
+        {
+            id: 3,
+            ru: "	брови	",
+            eng: "	eyebrows	"
+        },
+        {
+            id: 4,
+            ru: "	карие глаза	",
+            eng: "	brown eyes	"
+        },
+        {
+            id: 5,
+            ru: "	длинные светлые волосы	",
+            eng: "	long blond hair	"
+        },
+        {
+            id: 6,
+            ru: "	большие уши	",
+            eng: "	big ears	"
+        },
+        {
+            id: 7,
+            ru: "	один глаз	",
+            eng: "	an eye	"
+        },
+        {
+            id: 8,
+            ru: "	бровь	",
+            eng: "	an eyebrow	"
+        },
+        {
+            id: 9,
+            ru: "	острый нос	",
+            eng: "	a pointed nose	"
+        },
+        {
+            id: 10,
+            ru: "	губы	",
+            eng: "	lips "
+        },
+        {
+            id: 11,
+            ru: "	зубыыыыы	",
+            eng: "	teeth	"
+        },
+        {
+            id: 12,
+            ru: "	зууууб	",
+            eng: "	a tooth	"
+        },
+        {
+            id: 13,
+            ru: "	щёки	",
+            eng: "	cheeks	"
+        },
+        {
+            id: 14,
+            ru: "	двойной подбородок	",
+            eng: "	double chin	"
+        },
+        {
+            id: 15,
+            ru: "	грудь (грудная клетка)	",
+            eng: "	a chest	"
+        },
+        {
+            id: 16,
+            ru: "	женская грудь 	",
+            eng: "	breast	"
+        },
+        {
+            id: 17,
+            ru: "	волосатая спина	",
+            eng: "	a hairy back	"
+        },
+        {
+            id: 18,
+            ru: "	широкие плечи	",
+            eng: "	wide shoulders	"
+        },
+        {
+            id: 19,
+            ru: "	мускулистые руки	",
+            eng: "	muscular arms	"
+        },
+        {
+            id: 20,
+            ru: "	сделано кистями рук	",
+            eng: "	handmade	"
+        },
+        {
+            id: 21,
+            ru: "	короткие пальцы	",
+            eng: "	short fingers	"
+        },
+        {
+            id: 22,
+            ru: "	пальцы ног",
+            eng: "	toes /тоУз/"
+        },
+        {
+            id: 23,
+            ru: "	локоть	",
+            eng: "	an elbow	"
+        },
+        {
+            id: 24,
+            ru: "	лоб	",
+            eng: "	a forehead	"
+        },
+        {
+            id: 25,
+            ru: "	чёлка	",
+            eng: "	a fringe	"
+        },
+        {
+            id: 26,
+            ru: "животик	",
+            eng: " tummy	"
+        },
+        {
+            id: 27,
+            ru: "	пузико	",
+            eng: "	 belly	"
+        },
+        {
+            id: 28,
+            ru: "	татуировки	",
+            eng: "	tattoos on "
+        },
+        {
+            id: 29,
+            ru: "	ступни	",
+            eng: "	feet	"
+        },
+        {
+            id: 30,
+            ru: "	ступня	",
+            eng: "	a foot	"
+        },
+        {
+            id: 31,
+            ru: "	пятка	",
+            eng: "	a heel	"
+        },
+        {
+            id: 32,
+            ru: "	высокие каблуки	",
+            eng: "	high heels	"
+        },
+        {
+            id: 33,
+            ru: "	кнопка на пузе (пупок)	",
+            eng: "	a belly button	"
+        },
+        {
+            id: 34,
+            ru: "	попа	",
+            eng: "	bottom	"
+        },
+        {
+            id: 35,
+            ru: "	 ноги	",
+            eng: "	 legs	"
+        },
+        {
+            id: 36,
+            ru: "	шрам 	",
+            eng: "	a scar 	"
+        },
+        {
+            id: 37,
+            ru: "	борода 	",
+            eng: "	beard /биед/	"
+        },
+        {
+            id: 38,
+            ru: "	усы	",
+            eng: "	moustache /мАсташ/	"
+        },
+        {
+            id: 39,
+            ru: "	родинка	",
+            eng: "	a mole	/мОул/"
+        },
+        {
+            id: 40,
+            ru: "	родимое пятно	",
+            eng: "	a birthmark	"
+        },
+        {
+            id: 41,
+            ru: "	ямочка 	",
+            eng: "	a dimple 	"
+        },
+        {
+            id: 42,
+            ru: "	 морщинки	",
+            eng: "	 wrinkles	"
+        },
+        {
+            id: 43,
+            ru: "	веснушки	",
+            eng: "	 freckles	"
+        },
+        {
+            id: 44,
+            ru: "	кисти рук	",
+            eng: "	hands	"
+        },
+        {
+            id: 45,
+            ru: "	стройный	",
+            eng: "	slim	"
+        },
+        {
+            id: 46,
+            ru: "	тощий	",
+            eng: "	skinny	"
+        },
+        {
+            id: 47,
+            ru: "	волосы	",
+            eng: "	hair	"
+        },
+        {
+            id: 48,
+            ru: "	 лысый	",
+            eng: "	 bald	"
+        },
+        {
+            id: 49,
+            ru: "	рот	",
+            eng: "	mouth	"
+        },
+        {
+            id: 50,
+            ru: "	уши	",
+            eng: "	ears	"
+        },
+        {
+            id: 51,
+            ru: "	одно ухо	",
+            eng: "	an ear	"
+        },
+        {
+            id: 52,
+            ru: "	кудрявые	",
+            eng: "	curly	"
+        },
+        {
+            id: 53,
+            ru: "	прямые 	",
+            eng: "	straight /стрЭйт/	"
+        },
+        {
+            id: 54,
+            ru: "	  волнистые	",
+            eng: "	   wavy	"
+        },
+        {
+            id: 55,
+            ru: "	колено	",
+            eng: " a knee /ни/	"
+        },
+        {
+            id: 56,
+            ru: "	упругий	",
+            eng: "	firm / фёрм/"
+        },
+        {
+            id: 55,
+            ru: "	колени	",
+            eng: " knees /низ/	"
+        },
+        
     ],
     Irregular_verbs_1_form: [
         {
@@ -3378,3 +3666,73 @@ const allCards = {
     ],
 }
 export default allCards
+
+// объединение массивов и объектов
+// const arrayFirst = [
+//     {
+//         id: '1',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '1',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '1',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '1',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '1',
+//         ru: '',
+//         eng: ''
+//     }
+// ]
+// const arraySecond = [
+//     {
+//         id: '2',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '2',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '2',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '2',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '2',
+//         ru: '',
+//         eng: ''
+//     }
+// ]
+
+// const arrayFirstAndSecond = [
+//     ...arrayFirst, ...arraySecond,
+//     {
+//         id: '3',
+//         ru: '',
+//         eng: ''
+//     },
+//     {
+//         id: '3',
+//         ru: '',
+//         eng: ''
+//     },
+// ]
